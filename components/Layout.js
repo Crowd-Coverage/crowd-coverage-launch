@@ -4,6 +4,7 @@ import Head from 'next/head'
 import Header from './Header'
 import HomeMainTitle from './HomeMainTitle'
 import HomeCCAbout from './HomeCCAbout'
+import Footer from './Footer'
 
 export default props => {
   return (
@@ -16,6 +17,7 @@ export default props => {
       </Header>
       <HomeMainTitle mobile />
       <HomeCCAbout />
+      <Footer />
     </Container>
   )
 }
