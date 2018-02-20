@@ -58,31 +58,31 @@ const HomeCCAbout = ({ mobile }) => {
       <Grid columns={3} divided>
         <Grid.Row>
           <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
-            <Header as='h2' textAlign='center'>Justin Bongi</Header>
+            <Image src='/static/justin.png' />
+            <Header as='h2'>Justin Bongi</Header>
           </Grid.Column>
           <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
-            <Header as='h2' textAlign='center'>John Pearson</Header>
+            <Image src='/static/john.png' />
+            <Header as='h2'>John Pearson</Header>
           </Grid.Column>
           <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
-            <Header as='h2' textAlign='center'>Phillip Lorenzo</Header>
+            <Image src='/static/phil.png' />
+            <Header as='h2'>Phillip Lorenzo</Header>
           </Grid.Column>
         </Grid.Row>
 
         <Grid.Row>
           <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
-            <Header as='h2' textAlign='center'>Dondrey Taylor</Header>
+            <Image src='/static/dondrey.png' />
+            <Header as='h2'>Dondrey Taylor</Header>
+          </Grid.Column>
+          <Grid.Column>
+            <Image src='/static/ryan.png' />
+            <Header as='h2'>Ryan David Williams</Header>
           </Grid.Column>
           <Grid.Column>
             <Image src='/assets/images/wireframe/media-paragraph.png' />
-            <Header as='h2' textAlign='center'>Ryan David Williams</Header>
-          </Grid.Column>
-          <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
-            <Header as='h2' textAlign='center'>Solidity Developer</Header>
+            <Header as='h2'>Solidity Developer</Header>
           </Grid.Column>
         </Grid.Row>
       </Grid>
