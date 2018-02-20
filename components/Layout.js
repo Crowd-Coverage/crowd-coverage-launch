@@ -16,7 +16,7 @@ export default props => {
         {props.children}
       </Header>
       <HomeMainTitle mobile />
-      <HomeCCAbout />
+      <HomeCCAbout mobile />
       <Footer />
     </Container>
   )
