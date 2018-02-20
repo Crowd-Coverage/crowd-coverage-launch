@@ -1,6 +1,7 @@
 import React from 'react';
 import { Menu } from 'semantic-ui-react';
 import { Link } from '../routes';
+import LaunchModal from './LaunchModal'
 
 export default () => {
   return (
@@ -9,9 +10,7 @@ export default () => {
         <a className="item">Crowd Coverage</a>
       </Link>
       <Menu.Menu position="right">
-        <Link route="/">
-          <a className="item">Sign Up For The Pre Sale</a>
-        </Link>
+        <LaunchModal />
       </Menu.Menu>
     </Menu>
   );

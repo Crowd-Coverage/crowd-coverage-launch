@@ -9,6 +9,7 @@ import {
   Icon,
   Button
 } from 'semantic-ui-react'
+import LaunchModal from './LaunchModal'
 
 
 const HomeCCAbout = () => {
@@ -41,10 +42,19 @@ const HomeCCAbout = () => {
       <Grid columns={3} divided>
         <Grid.Row>
           <Grid.Column>
-            <Header icon='rocket' content='The Alpha Platform is Coming'></Header>
+            <Header icon='users' content='P2P Crowdfunding'>
+            </Header>
+            <p>Property Funding on Ethereum Smart Contracts</p>
           </Grid.Column>
           <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
+            <Header icon='user circle' content='The Platform is Open'>
+            </Header>
+            <p>For all types of users to help fund a policy</p>
+          </Grid.Column>
+          <Grid.Column>
+            <Header icon='rocket' content='Get ready for our launch'>
+            </Header>
+            <p>The presale is coming, do not miss it! Sign up for updates</p>
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
@@ -52,11 +62,9 @@ const HomeCCAbout = () => {
           </Grid.Column>
         </Grid.Row>
       </Grid>
-      <Grid columns={1}>
-        <Grid.Row textAlign='center'>
-          <Button size='huge'>Sign up for Updates</Button>
-        </Grid.Row>
-      </Grid>
+      <Container textAlign='center'>
+        <LaunchModal />
+      </Container>
     </Segment>
   )
 }
