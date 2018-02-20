@@ -1,5 +1,5 @@
 import React from 'react';
-import { List, Grid, Header, Container, Segment } from 'semantic-ui-react';
+import { List, Grid, Header, Container, Segment, Icon } from 'semantic-ui-react';
 import { Link } from '../routes';
 
 export default () => {
@@ -27,6 +27,7 @@ export default () => {
             <Grid.Column width={7}>
               <Header as='h4' inverted>Crowd Coverage</Header>
               <p>Join the pre sale and help change the insurance industry</p>
+              <Icon name="reddit alien" link />
             </Grid.Column>
           </Grid.Row>
         </Grid>

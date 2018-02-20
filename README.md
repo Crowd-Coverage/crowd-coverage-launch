@@ -6,7 +6,8 @@ Clone the repository then:
 
 ``` bash
 # install dependencies
-git clone <repo copy> 
+git clone <repo copy link>
+cd crowd-coverage-launch 
 npm install
 npm run dev
 ```
