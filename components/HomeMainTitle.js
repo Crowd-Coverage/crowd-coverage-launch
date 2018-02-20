@@ -15,7 +15,19 @@ import LaunchModal from './LaunchModal'
 
 const HomeMainTitle = ({ mobile }) => {
   return (
-    <Container fluid textAlign='center' style={{ backgroundColor: 'black' }}>
+    <Container fluid textAlign='center' style={{ backgroundColor: 'grey' }}>
+      <Header
+        as='h1'
+        content='Crowd Coverage'
+        textAlign='center'
+        inverted
+        style={{
+          fontSize: mobile ? '2em' : '4em',
+          fontWeight: 'bold',
+          marginBottom: 0,
+          marginTop: mobile ? '1.5em' : '3em',
+        }}
+      />
       <Header
         as='h1'
         content='Decentralized Property Insurance'

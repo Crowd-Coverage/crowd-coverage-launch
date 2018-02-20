@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Segment, Visibility } from 'semantic-ui-react';
+import { Menu, Segment, Visibility, Image } from 'semantic-ui-react';
 import { Link } from '../routes';
 
 const menuStyle = {
@@ -37,7 +37,7 @@ export default class Header extends Component {
       >
         <Menu fixed={menuFixed && 'top'} style={menuFixed ? fixedMenuStyle : menuStyle} borderless>
           <Link route="/">
-            <a className="item">Crowd Coverage</a>
+            <Image src='static/cclogonew.png' />
           </Link>
           <Menu.Menu position="right">
             <Link route="/">
