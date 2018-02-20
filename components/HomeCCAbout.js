@@ -6,13 +6,14 @@ import {
   Segment,
   Header,
   Image,
+  Icon,
   Button
 } from 'semantic-ui-react'
 
 
 const HomeCCAbout = () => {
   return (
-    <Segment style={{ padding: '8em 0em' }} vertical>
+    <Segment style={{ padding: '8em 0em' }} vertical >
       <Grid columns={2} divided>
         <Grid.Row>
           <Grid.Column>
@@ -36,19 +37,24 @@ const HomeCCAbout = () => {
             <Image src='/static/youngguycell.png' />
           </Grid.Column>
         </Grid.Row>
-
+      </Grid>
+      <Grid columns={3} divided>
         <Grid.Row>
           <Grid.Column>
-            <Image src='/assets/images/wireframe/media-paragraph.png' />
+            <Header icon='rocket' content='The Alpha Platform is Coming'></Header>
           </Grid.Column>
           <Grid.Column>
             <Image src='/assets/images/wireframe/media-paragraph.png' />
           </Grid.Column>
         </Grid.Row>
         <Grid.Row>
-          <Grid.Column textAlign='center'>
-            <Button size='huge'>Join The Pre-Sale</Button>
+          <Grid.Column textAlign='left'>
           </Grid.Column>
+        </Grid.Row>
+      </Grid>
+      <Grid columns={1}>
+        <Grid.Row textAlign='center'>
+          <Button size='huge'>Sign up for Updates</Button>
         </Grid.Row>
       </Grid>
     </Segment>
