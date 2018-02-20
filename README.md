@@ -2,10 +2,16 @@
 
 ##### These instructions are only for the development team. If you are not on this team, please reach out to Phil for a walkthrough on how to set up the dev environment. 
 
+Clone the repository then:
+
 ``` bash
 # install dependencies
+git clone <repo copy> 
 npm install
+npm run dev
 ```
+
+Once you run the `npm run dev` command, then point the browser to `localhost:3000` to check out the dev version of the site. 
 
 ## Built With
 
