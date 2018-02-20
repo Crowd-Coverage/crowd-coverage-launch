@@ -58,7 +58,7 @@ const HomeCCAbout = ({ mobile }) => {
             marginBottom: 0,
             marginTop: mobile ? '1em' : '2em',
           }}>
-            <Header icon='users' content='P2P Crowdfunding'>
+            <Header icon='users' content='Peer to Peer'>
             </Header>
             <p>Property Funding on Ethereum Smart Contracts</p>
           </Grid.Column>
@@ -68,7 +68,7 @@ const HomeCCAbout = ({ mobile }) => {
             marginBottom: 0,
             marginTop: mobile ? '1em' : '2em',
           }}>
-            <Header icon='user circle' content='The Platform is Open'>
+            <Header icon='user circle' content='An Open Platform'>
             </Header>
             <p>For all types of users to help fund a policy</p>
           </Grid.Column>
