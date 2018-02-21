@@ -27,7 +27,15 @@ export default () => {
             <Grid.Column width={7}>
               <Header as='h4' inverted>Crowd Coverage</Header>
               <p>Join the pre sale and help change the insurance industry</p>
-              <Icon name="reddit alien" link />
+              <a href='https://www.reddit.com/r/CrowdCoverage/' target='blank'>
+                <Icon name="reddit alien" link size='large' />
+              </a>
+              <a href='https://www.facebook.com/Crowd-Coverage-586946688316792/' target='blank'>
+                <Icon name="facebook" link size='large' />
+              </a>
+              <a href='https://twitter.com/CrowdCoverage' target='blank'>
+                <Icon name="twitter" link size='large' />
+              </a>
             </Grid.Column>
           </Grid.Row>
         </Grid>
