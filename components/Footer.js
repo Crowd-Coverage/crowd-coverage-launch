@@ -9,7 +9,6 @@ export default () => {
         <Grid divided inverted stackable>
           <Grid.Row>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='About' />
               <List link inverted>
                 <List.Item as='a'>Contact Us</List.Item>
                 <List.Item as='a'>Token Pre-Sale Info</List.Item>
@@ -17,10 +16,9 @@ export default () => {
               </List>
             </Grid.Column>
             <Grid.Column width={3}>
-              <Header inverted as='h4' content='Services' />
               <List link inverted>
                 <List.Item as='a'>Team</List.Item>
-                <List.Item as='a'>FAQ</List.Item>
+                <Link route={`/faq`}><List.Item as='a'>FAQ</List.Item></Link>
                 <List.Item as='a'>Roadmap</List.Item>
               </List>
             </Grid.Column>
