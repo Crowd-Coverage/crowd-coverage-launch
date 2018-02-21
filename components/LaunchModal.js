@@ -8,7 +8,7 @@ import {
 } from 'semantic-ui-react'
 
 const LaunchModal = () => (
-  <Modal trigger={<Button>Sign Up for Updates</Button>} closeIcon>
+  <Modal trigger={<Button primary>Sign Up for Updates</Button>} closeIcon >
     <Header icon='signup' content='Sign Up for Updates' />
     <Modal.Content>
       <Form>
