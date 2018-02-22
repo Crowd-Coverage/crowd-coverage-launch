@@ -11,23 +11,16 @@ const LaunchModal = () => (
   <Modal trigger={<Button primary>Sign Up for Updates</Button>} closeIcon >
     <Header icon='signup' content='Sign Up for Updates' />
     <Modal.Content>
-      <Form>
-        <Form.Field>
-          <label>First Name</label>
-          <input placeholder='First Name' />
+      <Form action='https://formspree.io/phillip.lorenzo@crowdcoverage.io' method='POST'>
+        <Form.Field required>
+          <label>Name</label>
+          <input placeholder='Name' type='text' name='name' />
         </Form.Field>
-        <Form.Field>
-          <label>Last Name</label>
-          <input placeholder='Last Name' />
-        </Form.Field>
-        <Form.Field>
+        <Form.Field required>
           <label>Email</label>
-          <input placeholder='Email' />
+          <input placeholder='Email' type='email' name='_replyto' />
         </Form.Field>
-        <Form.Field>
-          <Checkbox label='I agree to the Terms and Conditions' />
-        </Form.Field>
-        <Button type='submit'>Submit</Button>
+        <Button type='submit' value='send'>Submit</Button>
       </Form>
     </Modal.Content>
   </Modal>
