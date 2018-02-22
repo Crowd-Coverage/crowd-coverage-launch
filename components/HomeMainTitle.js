@@ -9,6 +9,7 @@ import {
   Image,
   Modal,
   Checkbox,
+  Divider,
   Form
 } from 'semantic-ui-react'
 import LaunchModal from './LaunchModal'
@@ -20,7 +21,6 @@ const HomeMainTitle = ({ mobile }) => {
       <Header
         as='h1'
         content='Decentralized Property Insurance'
-        textAlign='center'
         style={{
           fontSize: mobile ? '2em' : '4em',
           fontWeight: 'normal',
@@ -30,7 +30,6 @@ const HomeMainTitle = ({ mobile }) => {
       />
       <Header
         as='h2'
-        textAlign='center'
         content='Get Ready for our token sale!'
         style={{
           fontSize: mobile ? '1.5em' : '1.7em',
@@ -39,6 +38,13 @@ const HomeMainTitle = ({ mobile }) => {
         }}
       />
       <LaunchModal />
+      <Divider />
+      <div>
+        <a href='http://t.me/crowdcoverage' target='blank'>
+          <Icon name="telegram" link size='large' />
+          <p>Take a Look at our telegram</p>
+        </a>
+      </div>
     </Container>
   )
 }

@@ -40,7 +40,7 @@ const HomeCCAbout = ({ mobile }) => {
       <Container fluid style={{ padding: '30px' }}>
         <Header as='h1' textAlign='center'>The Platform</Header>
         <p style={{ textAlign: 'center', padding: '10px' }}>The Crowd Coverage Network provides a platform that enables users to submit requests for property protection policies. Insurance providers can then bid on said requests, either purchasing the entire policy, or sharing risk with other providers. Policy actions are carried out by mutual smart contracts. Through the use of these autonomous, decentralized contracts, insurance deals occur in lieu of centralized financial and administrative facilitators, thus reducing fees, wait times, and opportunities for deceit. Payment mechanics are rendered transparent and accountable by means of publicly available ledgers; objectivity is lent to the claims management process through a decentralized system of vote consensus, which dictates the result of claims submitted on the platform.</p>
-        <Image src='static/platform.png' size='large' centered />
+        <Image src='static/CC_Diagram_Polished.png' size='huge' centered />
       </Container>
       <Divider />
       <Container text>
