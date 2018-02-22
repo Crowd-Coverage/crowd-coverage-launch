@@ -37,7 +37,7 @@ export default class Header extends Component {
       >
         <Menu fixed={menuFixed && 'top'} style={menuFixed ? fixedMenuStyle : menuStyle} borderless>
           <Link route="/">
-            <Image src='static/cclogonew.png' />
+            <Image src='static/crowd_coverage_logo_mini.png' />
           </Link>
           <Menu.Menu position="right">
             <Link route="/">

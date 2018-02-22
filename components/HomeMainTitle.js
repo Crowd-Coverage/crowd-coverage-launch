@@ -17,7 +17,7 @@ import LaunchModal from './LaunchModal'
 const HomeMainTitle = ({ mobile }) => {
   return (
     <Container fluid textAlign='center'>
-      <Image src='static/cclogo.png' centered />
+      <Image src='static/crowd_coverage_logo_300_square.png' centered size='large' />
       <Header
         as='h1'
         content='Decentralized Property Insurance'
