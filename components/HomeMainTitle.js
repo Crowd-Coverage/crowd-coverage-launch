@@ -20,9 +20,9 @@ const HomeMainTitle = ({ mobile }) => {
       <Image src='static/crowd_coverage_logo_300_square.png' centered size='large' />
       <Header
         as='h1'
-        content='Decentralized Property Insurance'
+        content='Revolutionizing the Insurance Industry'
         style={{
-          fontSize: mobile ? '2em' : '4em',
+          fontSize: mobile ? '4em' : '6em',
           fontWeight: 'normal',
           marginBottom: 0,
           marginTop: mobile ? '1.5em' : '3em',

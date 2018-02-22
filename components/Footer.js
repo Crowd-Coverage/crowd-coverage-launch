@@ -8,18 +8,11 @@ export default () => {
       <Container>
         <Grid divided inverted stackable>
           <Grid.Row>
-            <Grid.Column width={3}>
+            <Grid.Column width={6}>
               <List link inverted>
-                <List.Item as='a'>Contact Us</List.Item>
                 <List.Item as='a'>Token Pre-Sale Info</List.Item>
                 <List.Item as='a'>Whitepaper</List.Item>
-              </List>
-            </Grid.Column>
-            <Grid.Column width={3}>
-              <List link inverted>
-                <List.Item as='a'>Team</List.Item>
                 <Link route={`/faq`}><List.Item as='a'>FAQ</List.Item></Link>
-                <List.Item as='a'>Roadmap</List.Item>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>

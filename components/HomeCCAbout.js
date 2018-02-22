@@ -15,6 +15,7 @@ import {
 import LaunchModal from './LaunchModal'
 
 
+
 const HomeCCAbout = ({ mobile }) => {
   return (
     <Segment style={{}} vertical >
@@ -32,14 +33,14 @@ const HomeCCAbout = ({ mobile }) => {
           </Reveal.Content>
           <Reveal.Content hidden>
             <Header as='h1' textAlign='center'>How Do We Do This?</Header>
-            <p style={{ textAlign: 'center', padding: '10px' }}>The Crowd Coverage platform is an interface wherein the process of purchasing insurance is as simple and streamlined as shopping for an item on Amazon, where insurance providers are enabled to quickly and efficiently underwrite policies on a sophisticated marketplace, and where smart contract technology makes the experience cheaper on both ends.  On the Crowd Coverage platform, claims are settled by a decentralized and representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with decentralized-consensus objectivity.</p>
+            <p style={{ textAlign: 'center', padding: '10px' }}>The Crowd Coverage platform allows the process of purchasing insurance to be as simple and streamlined as shopping on Amazon. Insurance providers are enabled to quickly and efficiently underwrite policies on a sophisticated marketplace, smart contract technology makes the experience cheaper and more secure for all parties. All claims are settled by a decentralized and representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with decentralized-consensus objectivity.</p>
           </Reveal.Content>
         </Reveal>
       </Container>
       <Divider />
       <Container fluid style={{ padding: '30px' }}>
         <Header as='h1' textAlign='center'>The Platform</Header>
-        <p style={{ textAlign: 'center', padding: '10px' }}>The Crowd Coverage Network provides a platform that enables users to submit requests for property protection policies. Insurance providers can then bid on said requests, either purchasing the entire policy, or sharing risk with other providers. Policy actions are carried out by mutual smart contracts. Through the use of these autonomous, decentralized contracts, insurance deals occur in lieu of centralized financial and administrative facilitators, thus reducing fees, wait times, and opportunities for deceit. Payment mechanics are rendered transparent and accountable by means of publicly available ledgers; objectivity is lent to the claims management process through a decentralized system of vote consensus, which dictates the result of claims submitted on the platform.</p>
+        <p style={{ textAlign: 'center', padding: '10px' }}>Crowd Coverage provides a platform that enables users to submit requests for policies. Insurance providers can then bid on said requests, either purchasing the entire policy, or sharing risk with other providers. Policy actions are carried out by mutual smart contracts. Through the use of these autonomous, decentralized contracts, insurance deals occur in lieu of centralized financial and administrative facilitators, thus reducing fees, wait times, and opportunities for deceit. Payment mechanics are rendered transparent and accountable by means of publicly available ledgers; objectivity is lent to the claims management process through a decentralized system of vote consensus, which dictates the result of claims submitted on the platform.</p>
         <Image src='static/CC_Diagram_Polished.png' size='huge' centered />
       </Container>
       <Divider />
@@ -63,9 +64,9 @@ const HomeCCAbout = ({ mobile }) => {
       </Container>
       <Divider />
       <Header as='h1' textAlign='center'>Our Team</Header>
-      <Grid columns={3} divided>
+      <Grid columns={3} divided stackable>
         <Grid.Row>
-          <Grid.Column>
+          <Grid.Column >
             <Image src='/static/justin.png' centered />
             <Header as='h4' style={{ textAlign: 'center' }}>Justin Bongi | Cofounder</Header>
             <p style={{ textAlign: 'center', padding: '10px' }}>Founder of Cinefeed, Editor at Wilder Voice Press, Developer of News Analytics Platform </p>
