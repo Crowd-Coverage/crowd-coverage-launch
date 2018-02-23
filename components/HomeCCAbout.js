@@ -55,7 +55,7 @@ const HomeCCAbout = ({ mobile }) => {
       </Container>
       <Divider />
       <Container fluid>
-        <Image src='static/token_distribution.png' size='large' centered />
+        <Image src='static/upd_token_dist.png' size='large' centered />
         <p style={{ textAlign: 'center', padding: '10px' }}>COVR tokens act as incentive-based fuels for the Crowd Coverage insurance ecosystem. They will be available for purchase during our pre-sale and public sale, both of which will be conducted in the manner of a dutch auction: the earlier you purchase, the greater a discount you will receive (see below). For example, the first 12 million tokens sold will be discounted at a rate of 50%, the next 28 million at a rate of 35%, and so on. </p>
       </Container>
       <Divider />
