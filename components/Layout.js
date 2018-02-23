@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Image, Responsive, Segment, Visibility } from 'semantic-ui-react'
+import { Container, Image, Responsive, Segment } from 'semantic-ui-react'
 import Head from 'next/head'
 import Header from './Header'
 import HomeMainTitle from './HomeMainTitle'
@@ -11,10 +11,11 @@ export default props => {
     <Segment>
       <Container>
         <Head>
+          <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
           <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
         </Head>
         <Segment.Group>
-          <Responsive {...Responsive.onlyMobile}>
+          <Responsive as={Segment} {...Responsive.onlyMobile}>
             <Header>
               {props.children}
             </Header>
@@ -29,7 +30,7 @@ export default props => {
           <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
         </Head>
         <Segment.Group>
-          <Responsive {...Responsive.onlyTablet}>
+          <Responsive as={Segment} {...Responsive.onlyTablet}>
             <Header>
               {props.children}
             </Header>
@@ -44,7 +45,7 @@ export default props => {
           <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
         </Head>
         <Segment.Group>
-          <Responsive {...Responsive.onlyComputer}>
+          <Responsive as={Segment} {...Responsive.onlyComputer}>
             <Header>
               {props.children}
             </Header>

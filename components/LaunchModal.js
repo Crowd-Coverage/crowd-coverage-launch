@@ -11,7 +11,7 @@ const LaunchModal = () => (
   <Modal trigger={<Button primary>Sign Up for Updates</Button>} closeIcon >
     <Header icon='signup' content='Sign Up for Updates' />
     <Modal.Content>
-      <Form action='https://formspree.io/phillip.lorenzo@crowdcoverage.io' method='POST'>
+      <Form action='https://formspree.io/jbongi@crowdcoverage.io' method='POST'>
         <Form.Field required>
           <label>Name</label>
           <input placeholder='Name' type='text' name='name' />
