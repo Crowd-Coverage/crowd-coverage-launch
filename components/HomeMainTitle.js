@@ -22,7 +22,7 @@ const HomeMainTitle = ({ mobile }) => {
         as='h1'
         content='Revolutionizing the Insurance Industry'
         style={{
-          fontSize: mobile ? '4em' : '6em',
+          fontSize: mobile ? '2em' : '4em',
           fontWeight: 'normal',
           marginBottom: 0,
           marginTop: mobile ? '1.5em' : '3em',
