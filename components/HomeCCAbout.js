@@ -71,6 +71,7 @@ const HomeCCAbout = ({ mobile }) => {
         <Image src='static/discount.png' size='large' centered />
       </Container>
       <Divider />
+      <Image src='static/team.png' size='small' centered />
       <Header as='h1' textAlign='center'>Our Team</Header>
       <Grid columns={3} divided stackable>
         <Grid.Row>
