@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Menu, Segment, Visibility, Image } from 'semantic-ui-react';
 import { Link } from '../routes';
+import LaunchModal from './LaunchModal'
 
 const menuStyle = {
   border: 'none',
@@ -36,13 +37,13 @@ export default class Header extends Component {
         once={false}
       >
         <Menu fixed={menuFixed && 'top'} style={menuFixed ? fixedMenuStyle : menuStyle} borderless>
-          <Link route="/">
-            <Image src='static/crowd_coverage_logo_mini.png' />
-          </Link>
-          <Menu.Menu position="right">
+          <Menu.Menu>
             <Link route="/">
-              <a className="item">Sign Up For The Pre Sale</a>
+              <Image src='static/crowd_coverage_logo_mini.png' />
             </Link>
+          </Menu.Menu>
+          <Menu.Menu position="right">
+            <LaunchModal />
           </Menu.Menu>
         </Menu>
       </Visibility>
