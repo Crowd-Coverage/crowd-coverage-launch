@@ -98,12 +98,12 @@ const HomeCCAbout = ({ mobile }) => {
           <Grid.Row>
             <Grid.Column >
               <Image src='/static/justin.png' centered />
-              <Header as='h4' style={{ textAlign: 'center' }}>Justin Bongi | Cofounder</Header>
+              <Header as='h4' style={{ textAlign: 'center' }}>Justin Bongi | Co-Founder</Header>
               <p style={{ textAlign: 'center', padding: '10px' }}>Founder of Cinefeed, Editor at Wilder Voice Press, Developer of News Analytics Platform </p>
             </Grid.Column>
             <Grid.Column>
               <Image src='/static/john.png' centered />
-              <Header as='h4' style={{ textAlign: 'center' }}>John Pearson | Cofounder</Header>
+              <Header as='h4' style={{ textAlign: 'center' }}>John Pearson | Co-Founder</Header>
               <p style={{ textAlign: 'center' }}>Cofounder at InstinctiveDrives.com, VP Sales at Humantelligence, Inc., VP Product & Technology at Aberdeen Group </p>
             </Grid.Column>
             <Grid.Column>
