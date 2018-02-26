@@ -41,7 +41,7 @@ const FAQ = () => {
           <p>
             A decentralized and crowdfunded property-coverage market will alleviate if not eliminate all of these issues, thus a) cutting combined expenses for insurance providers and consumers, b) increasing the likelihood of the average consumer securing insurance policies, and c) opening the market to small-scale consumers as well as to temporary policies—a market which heretofore has remained largely untapped.
           </p>
-          <p>More can be read on this in the whitepaper.</p>
+          <p>More can be read on this in the <a href="/static/cc_whitepaper.pdf" download="cc_whitepaper.pdf">Whitepaper</a>.</p>
         </ScrollAnimation>
         <h3>What sort of items can be insured on the platform?</h3>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
