@@ -70,15 +70,15 @@ const HomeCCAbout = ({ mobile }) => {
       </Container>
       <Divider />
       <Container fluid>
+        <Image src='static/roadmap.png' size='small' centered />
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/roadmap.png' size='small' centered />
           <Image src='static/cc_roadmap.jpg' size='large' centered />
         </ScrollAnimation>
       </Container>
       <Divider />
       <Container fluid>
+        <Image src='static/token.png' size='small' centered />
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/token.png' size='small' centered />
           <Image src='static/upd_token_dist.png' size='large' centered />
           <p style={{ textAlign: 'center', padding: '10px' }}><strong>COVR tokens</strong> act as incentive-based fuels for the Crowd Coverage insurance ecosystem. They will be available for purchase during our pre-sale and public sale, both of which will be conducted in the manner of a dutch auction: </p>
           <p style={{ textAlign: 'center', padding: '10px' }}>The earlier you purchase, <strong>the greater a discount you will receive (see below).</strong> For example, the first 12 million tokens sold will be discounted at a rate of 50%, the next 28 million at a rate of 35%, and so on. </p>
@@ -91,45 +91,45 @@ const HomeCCAbout = ({ mobile }) => {
         </ScrollAnimation>
       </Container>
       <Divider />
+      <Image src='static/team.png' size='small' centered />
+      <Header as='h1' textAlign='center'>Our Team</Header>
       <ScrollAnimation animateIn='fadeIn' duration='2'>
-        <Image src='static/team.png' size='small' centered />
-        <Header as='h1' textAlign='center'>Our Team</Header>
+        <Grid columns={3} divided stackable>
+          <Grid.Row>
+            <Grid.Column >
+              <Image src='/static/justin.png' centered />
+              <Header as='h4' style={{ textAlign: 'center' }}>Justin Bongi | Cofounder</Header>
+              <p style={{ textAlign: 'center', padding: '10px' }}>Founder of Cinefeed, Editor at Wilder Voice Press, Developer of News Analytics Platform </p>
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/static/john.png' centered />
+              <Header as='h4' style={{ textAlign: 'center' }}>John Pearson | Cofounder</Header>
+              <p style={{ textAlign: 'center' }}>Cofounder at InstinctiveDrives.com, VP Sales at Humantelligence, Inc., VP Product & Technology at Aberdeen Group </p>
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/static/phil.png' centered />
+              <Header as='h4' style={{ textAlign: 'center' }}>Phillip Lorenzo | CTO</Header>
+              <p style={{ textAlign: 'center' }}>Software Engineer at Learners Guild and Accel.AI, Oakland Blockchain Developers Member </p>
+            </Grid.Column>
+          </Grid.Row>
+          <Grid.Row>
+            <Grid.Column>
+              <Image src='/static/dondrey.png' centered />
+              <Header as='h4' style={{ textAlign: 'center' }}>Dondrey Taylor | Business Development Advisor</Header>
+              <p style={{ textAlign: 'center' }}>Co-Founder at Decentralized News Network </p>
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/static/ryan.png' centered />
+              <Header as='h4' style={{ textAlign: 'center' }}>Ryan David Williams | Legal Advisor</Header>
+              <p style={{ textAlign: 'center' }}>Founder of Experience Legal, VP Startup Genius, Capital Markets Associate Morrison & Foerster LLP </p>
+            </Grid.Column>
+            <Grid.Column>
+              <Header as='h4' style={{ textAlign: 'center' }}>Lead Developer</Header>
+              <p style={{ textAlign: 'center' }}> TBD </p>
+            </Grid.Column>
+          </Grid.Row>
+        </Grid>
       </ScrollAnimation>
-      <Grid columns={3} divided stackable>
-        <Grid.Row>
-          <Grid.Column >
-            <Image src='/static/justin.png' centered />
-            <Header as='h4' style={{ textAlign: 'center' }}>Justin Bongi | Cofounder</Header>
-            <p style={{ textAlign: 'center', padding: '10px' }}>Founder of Cinefeed, Editor at Wilder Voice Press, Developer of News Analytics Platform </p>
-          </Grid.Column>
-          <Grid.Column>
-            <Image src='/static/john.png' centered />
-            <Header as='h4' style={{ textAlign: 'center' }}>John Pearson | Cofounder</Header>
-            <p style={{ textAlign: 'center' }}>Cofounder at InstinctiveDrives.com, VP Sales at Humantelligence, Inc., VP Product & Technology at Aberdeen Group </p>
-          </Grid.Column>
-          <Grid.Column>
-            <Image src='/static/phil.png' centered />
-            <Header as='h4' style={{ textAlign: 'center' }}>Phillip Lorenzo | CTO</Header>
-            <p style={{ textAlign: 'center' }}>Software Engineer at Learners Guild and Accel.AI, Oakland Blockchain Developers Member </p>
-          </Grid.Column>
-        </Grid.Row>
-        <Grid.Row>
-          <Grid.Column>
-            <Image src='/static/dondrey.png' centered />
-            <Header as='h4' style={{ textAlign: 'center' }}>Dondrey Taylor | Business Development Advisor</Header>
-            <p style={{ textAlign: 'center' }}>Co-Founder at Decentralized News Network </p>
-          </Grid.Column>
-          <Grid.Column>
-            <Image src='/static/ryan.png' centered />
-            <Header as='h4' style={{ textAlign: 'center' }}>Ryan David Williams | Legal Advisor</Header>
-            <p style={{ textAlign: 'center' }}>Founder of Experience Legal, VP Startup Genius, Capital Markets Associate Morrison & Foerster LLP </p>
-          </Grid.Column>
-          <Grid.Column>
-            <Header as='h4' style={{ textAlign: 'center' }}>Lead Developer</Header>
-            <p style={{ textAlign: 'center' }}> TBD </p>
-          </Grid.Column>
-        </Grid.Row>
-      </Grid>
       <Divider />
       <Container textAlign='center'>
         <LaunchModal />
