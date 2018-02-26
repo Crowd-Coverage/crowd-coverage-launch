@@ -19,7 +19,7 @@ import IntroVideo from './IntroVideo'
 
 const HomeCCAbout = ({ mobile }) => {
   return (
-    <Segment style={{}} vertical >
+    <Segment basic vertical >
       <Container text>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <IntroVideo />

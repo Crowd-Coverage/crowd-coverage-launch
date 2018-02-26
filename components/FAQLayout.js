@@ -2,9 +2,8 @@ import React from 'react'
 import { Container, Image } from 'semantic-ui-react'
 import Head from 'next/head'
 import Header from './Header'
-import HomeMainTitle from './HomeMainTitle'
-import HomeCCAbout from './HomeCCAbout'
 import Footer from './Footer'
+import FAQ from './FAQ'
 
 export default props => {
   return (
@@ -15,6 +14,7 @@ export default props => {
       <Header>
         {props.children}
       </Header>
+      <FAQ />
       <Footer />
     </Container>
   )
