@@ -43,26 +43,6 @@ export default class Header extends Component {
             </Link>
           </Menu.Menu>
           <Menu.Menu>
-            <Menu.Item
-              name='mission'
-            >
-              Mission
-          </Menu.Item>
-            <Menu.Item
-              name='platform'
-            >
-              Platform
-          </Menu.Item>
-            <Menu.Item
-              name='roadmap'
-            >
-              Roadmap
-          </Menu.Item>
-            <Menu.Item
-              name='team'
-            >
-              Team
-          </Menu.Item>
           </Menu.Menu>
           <Menu.Menu position="right">
             <LaunchModal />
