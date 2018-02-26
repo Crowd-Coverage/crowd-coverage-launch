@@ -37,7 +37,9 @@ const HomeCCAbout = ({ mobile }) => {
           <Reveal.Content hidden>
             <Image src='static/network-icon.png' size='small' centered />
             <Header as='h1' textAlign='center'>How Do We Do This?</Header>
-            <p style={{ textAlign: 'center', padding: '10px' }}>The Crowd Coverage platform allows the process of purchasing insurance to be as simple and streamlined as shopping on Amazon. Insurance providers are enabled to quickly and efficiently underwrite policies on a sophisticated marketplace, smart contract technology makes the experience cheaper and more secure for all parties. All claims are settled by a decentralized and representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with decentralized-consensus objectivity.</p>
+            <p style={{ textAlign: 'center', padding: '5px' }}>The Crowd Coverage platform allows the process of purchasing insurance to be as <strong>simple and streamlined</strong> as shopping on Amazon.</p>
+            <p style={{ textAlign: 'center', padding: '5px' }}>Insurance providers are <strong>enabled to quickly and efficiently underwrite policies</strong> on a sophisticated marketplace, smart contract technology makes the experience cheaper and more secure for all parties.</p>
+            <p style={{ textAlign: 'center', padding: '5px' }}>All claims are settled by a decentralized and representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with<strong>decentralized-consensus objectivity.</strong></p>
           </Reveal.Content>
         </Reveal>
       </Container>

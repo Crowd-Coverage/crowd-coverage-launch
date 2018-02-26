@@ -8,7 +8,7 @@ const menuStyle = {
   borderRadius: 0,
   boxShadow: 'none',
   marginBottom: '1em',
-  marginTop: '4em',
+  marginTop: '2em',
   transition: 'box-shadow 0.5s ease, padding 0.5s ease',
 }
 
@@ -41,6 +41,28 @@ export default class Header extends Component {
             <Link route="/">
               <Image src='static/crowd_coverage_logo_mini.png' />
             </Link>
+          </Menu.Menu>
+          <Menu.Menu>
+            <Menu.Item
+              name='mission'
+            >
+              Mission
+          </Menu.Item>
+            <Menu.Item
+              name='platform'
+            >
+              Platform
+          </Menu.Item>
+            <Menu.Item
+              name='roadmap'
+            >
+              Roadmap
+          </Menu.Item>
+            <Menu.Item
+              name='team'
+            >
+              Team
+          </Menu.Item>
           </Menu.Menu>
           <Menu.Menu position="right">
             <LaunchModal />
