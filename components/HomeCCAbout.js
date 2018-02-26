@@ -25,17 +25,17 @@ const HomeCCAbout = ({ mobile }) => {
           <IntroVideo />
         </ScrollAnimation>
         <Divider />
+        <Image src='static/mission.png' size='small' centered />
+        <Header as='h1' textAlign='center'>Mission</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/mission.png' size='small' centered />
-          <Header as='h1' textAlign='center'>Mission</Header>
           <p style={{ textAlign: 'center', padding: '10px', marginBottom: '10px' }}>Armed with the power of smart contract technology, our goal at Crowd Coverage is to guarantee faster, more trustworthy insurance at lower costs and in larger volume than could ever be dreamed of in the traditional insurance world.</p>
         </ScrollAnimation>
       </Container>
       <Divider />
       <Container>
+        <Image src='static/network-icon.png' size='small' centered />
+        <Header as='h1' textAlign='center'>How Do We Do This?</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/network-icon.png' size='small' centered />
-          <Header as='h1' textAlign='center'>How Do We Do This?</Header>
           <p style={{ textAlign: 'center', padding: '5px' }}>The Crowd Coverage platform allows the process of purchasing insurance to be as <strong>simple and streamlined</strong> as shopping on Amazon.</p>
           <p style={{ textAlign: 'center', padding: '5px' }}>Insurance providers are <strong>enabled to quickly and efficiently underwrite policies</strong> on a sophisticated marketplace, smart contract technology makes the experience cheaper and more secure for all parties.</p>
           <p style={{ textAlign: 'center', padding: '5px' }}>All claims are settled by a decentralized and representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with<strong>decentralized-consensus objectivity.</strong></p>
@@ -43,9 +43,9 @@ const HomeCCAbout = ({ mobile }) => {
       </Container>
       <Divider />
       <Container fluid style={{ padding: '30px' }}>
+        <Image src='static/platform_logo.png' size='small' centered />
+        <Header as='h1' textAlign='center'>The Platform</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/platform_logo.png' size='small' centered />
-          <Header as='h1' textAlign='center'>The Platform</Header>
           <p style={{ textAlign: 'center', padding: '10px' }}>Crowd Coverage provides a platform that enables <strong>users to submit requests for policies.</strong></p>
           <p style={{ textAlign: 'center', padding: '10px' }}>Insurance providers can then bid on said requests, either purchasing the entire policy, or sharing risk with other providers. Policy actions are carried out by mutual smart contracts.</p>
           <p style={{ textAlign: 'center', padding: '10px' }}><strong>Through the use of these autonomous, decentralized contracts, insurance deals occur in lieu of centralized financial and administrative facilitators, thus reducing fees, wait times, and opportunities for deceit.</strong></p>
@@ -57,9 +57,9 @@ const HomeCCAbout = ({ mobile }) => {
       </Container>
       <Divider />
       <Container text>
+        <Image src='static/compare.png' size='small' centered />
+        <Header as='h1' textAlign='center'>Let's Compare</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/compare.png' size='small' centered />
-          <Header as='h1' textAlign='center'>Let's Compare</Header>
           <p style={{ textAlign: 'center', padding: '5px' }}>The advantages of applying smart contract technology to the insurance industry are too numerous to count. </p>
           <p style={{ textAlign: 'center', padding: '5px' }}>With a cutting-edge development team working around the clock, an entrepreneurial powerhouse duo at our helm, and a <strong>diverse team of crypto-specialized advisors</strong>, Crowd Coverage is poised to disrupt insurance across the board.</p>
           <p style={{ textAlign: 'center', padding: '5px' }}>Traditional companies stand no chance, and our fledgling competitors in the cryptosphere will never be able to scale or prevent fraud like we will—most won’t even get off the ground. Don’t believe us? Our cofounders have detailed a more comprehensive analysis of the competitive landscape, and accessible.</p>
