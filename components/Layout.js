@@ -15,11 +15,11 @@ export default props => {
           <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
           <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
         </Head>
-        <Segment.Group>
+        <Header>
+          {props.children}
+        </Header>
+        <Segment.Group  >
           <Responsive as={Segment} {...Responsive.onlyMobile}>
-            <Header>
-              {props.children}
-            </Header>
             <HomeMainTitle mobile />
             <HomeCCAbout mobile />
             <Footer />
@@ -32,9 +32,6 @@ export default props => {
         </Head>
         <Segment.Group>
           <Responsive as={Segment} {...Responsive.onlyTablet}>
-            <Header>
-              {props.children}
-            </Header>
             <HomeMainTitle mobile />
             <HomeCCAbout mobile />
             <Footer />
@@ -47,9 +44,6 @@ export default props => {
         </Head>
         <Segment.Group>
           <Responsive as={Segment} {...Responsive.onlyComputer}>
-            <Header>
-              {props.children}
-            </Header>
             <HomeMainTitle mobile />
             <HomeCCAbout mobile />
             <Footer />
