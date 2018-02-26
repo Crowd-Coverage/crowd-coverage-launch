@@ -37,11 +37,6 @@ export default class Header extends Component {
         once={false}
       >
         <Menu fixed={menuFixed && 'top'} style={menuFixed ? fixedMenuStyle : menuStyle} borderless>
-          <Menu.Menu>
-            <Link route="/">
-              <Image src='static/crowd_coverage_logo_mini.png' />
-            </Link>
-          </Menu.Menu>
           <Link prefetch route={`/`}><Menu.Item as='a'>Home</Menu.Item></Link>
           <Link prefetch route={`/faq`}><Menu.Item as='a'>FAQ</Menu.Item></Link>
           <Menu.Item>
