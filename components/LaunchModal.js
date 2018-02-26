@@ -20,6 +20,20 @@ const LaunchModal = () => (
           <label>Email</label>
           <input placeholder='Email' type='email' name='_replyto' />
         </Form.Field>
+        <Form.Field required>
+          <label>What are you interested in? </label>
+          <select>
+            <option>Token Pre-Sale</option>
+            <option>Updates on the Dapp</option>
+            <option>General Token Sale</option>
+          </select>
+        </Form.Field>
+        <Form.Field >
+          <label>Please add any specific notes here</label>
+          <textarea>
+
+          </textarea>
+        </Form.Field>
         <Button type='submit' value='send'>Submit</Button>
       </Form>
     </Modal.Content>
