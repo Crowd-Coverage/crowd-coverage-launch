@@ -11,8 +11,9 @@ export default () => {
             <Grid.Column width={6}>
               <List link inverted>
                 <List.Item as='a'>Token Pre-Sale Info</List.Item>
-                <List.Item as='a'>Whitepaper</List.Item>
+                <a href="/static/cc_whitepaper.pdf" download="cc_whitepaper.pdf">Whitepaper</a>
                 <Link prefetch route={`/faq`}><List.Item as='a'>FAQ</List.Item></Link>
+
               </List>
             </Grid.Column>
             <Grid.Column width={7}>

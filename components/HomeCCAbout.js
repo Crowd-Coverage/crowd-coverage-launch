@@ -46,10 +46,10 @@ const HomeCCAbout = ({ mobile }) => {
         <Image src='static/platform_logo.png' size='small' centered />
         <Header as='h1' textAlign='center'>The Platform</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <p style={{ textAlign: 'center', padding: '10px' }}>Crowd Coverage provides a platform that enables <strong>users to submit requests for policies.</strong></p>
-          <p style={{ textAlign: 'center', padding: '10px' }}>Insurance providers can then bid on said requests, either purchasing the entire policy, or sharing risk with other providers. Policy actions are carried out by mutual smart contracts.</p>
-          <p style={{ textAlign: 'center', padding: '10px' }}><strong>Through the use of these autonomous, decentralized contracts, insurance deals occur in lieu of centralized financial and administrative facilitators, thus reducing fees, wait times, and opportunities for deceit.</strong></p>
-          <p style={{ textAlign: 'center', padding: '10px' }}>Payment mechanics are <strong>rendered transparent and accountable by means of publicly available ledgers</strong>; objectivity is lent to the claims management process through a decentralized system of vote consensus, which dictates the result of claims submitted on the platform. </p>
+          <p style={{ textAlign: 'center', padding: '5px' }}>Crowd Coverage provides a platform that enables <strong>users to submit requests for policies.</strong></p>
+          <p style={{ textAlign: 'center', padding: '5px' }}>Insurance providers can then bid on said requests, either purchasing the entire policy, or sharing risk with other providers. Policy actions are carried out by mutual smart contracts.</p>
+          <p style={{ textAlign: 'center', padding: '5px' }}><strong>Through the use of these autonomous, decentralized contracts, insurance deals occur in lieu of centralized financial and administrative facilitators, thus reducing fees, wait times, and opportunities for deceit.</strong></p>
+          <p style={{ textAlign: 'center', padding: '5px' }}>Payment mechanics are <strong>rendered transparent and accountable by means of publicly available ledgers</strong>; objectivity is lent to the claims management process through a decentralized system of vote consensus, which dictates the result of claims submitted on the platform. </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <Image src='static/CC_Diagram_Polished.png' size='huge' centered />
