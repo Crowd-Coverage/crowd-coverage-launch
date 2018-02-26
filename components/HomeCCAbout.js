@@ -32,7 +32,7 @@ const HomeCCAbout = ({ mobile }) => {
         </ScrollAnimation>
       </Container>
       <Divider />
-      <Container>
+      <Container text>
         <Image src='static/network-icon.png' size='small' centered />
         <Header as='h1' textAlign='center'>How Do We Do This?</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
@@ -42,7 +42,7 @@ const HomeCCAbout = ({ mobile }) => {
         </ScrollAnimation>
       </Container>
       <Divider />
-      <Container fluid style={{ padding: '30px' }}>
+      <Container text>
         <Image src='static/platform_logo.png' size='small' centered />
         <Header as='h1' textAlign='center'>The Platform</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
