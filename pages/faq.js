@@ -6,7 +6,6 @@ class LaunchFAQ extends Component {
   render() {
     return (
       <FAQLayout>
-
       </FAQLayout>
     )
   }
