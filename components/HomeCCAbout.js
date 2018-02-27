@@ -62,7 +62,7 @@ const HomeCCAbout = ({ mobile }) => {
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <p style={{ textAlign: 'center', padding: '5px' }}>The advantages of applying smart contract technology to the insurance industry are too numerous to count. </p>
           <p style={{ textAlign: 'center', padding: '5px' }}>With a cutting-edge development team working around the clock, an entrepreneurial powerhouse duo at our helm, and a <strong>diverse team of crypto-specialized advisors</strong>, Crowd Coverage is poised to disrupt insurance across the board.</p>
-          <p style={{ textAlign: 'center', padding: '5px' }}>Traditional companies stand no chance, and our fledgling competitors in the cryptosphere will never be able to scale or prevent fraud like we will—most won’t even get off the ground. Don’t believe us? Our cofounders have detailed a more comprehensive analysis of the competitive landscape, and accessible.</p>
+          <p style={{ textAlign: 'center', padding: '5px' }}>Traditional companies stand no chance, and our fledgling competitors in the cryptosphere will never be able to scale or prevent fraud like we will—most won’t even get off the ground. Don’t believe us? Our cofounders have detailed a more comprehensive analysis of the competitive landscape in our whitepaper.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <Image src='static/comparison.png' size='huge' centered />
