@@ -12,9 +12,6 @@ import {
 } from 'semantic-ui-react'
 import ScrollAnimation from 'react-animate-on-scroll'
 import LaunchModal from './LaunchModal'
-import IntroVideo from './IntroVideo'
-
-
 
 const FAQ = () => {
   return (
