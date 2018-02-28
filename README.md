@@ -14,6 +14,8 @@ npm run dev
 
 Once you run the `npm run dev` command, then point the browser to `localhost:3000` to check out the dev version of the site. 
 
+##### Continuous Build Instructions. 
+
 ## Built With
 
 * [next.js](https://github.com/zeit/next.js/) - A minimalistic framework for server-rendered React applications.
