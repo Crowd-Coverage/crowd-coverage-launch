@@ -14,7 +14,7 @@ npm run dev
 
 Once you run the `npm run dev` command, then point the browser to `localhost:3000` to check out the dev version of the site. 
 
-##### Continuous Build Instructions. 
+##### Build and Launch Instructions. 
 
 ## Built With
 
