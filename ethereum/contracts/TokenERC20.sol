@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-// general template for ERC20 token. This should be able to be called in a COVR Token contract after all sales are done. 
+/* general template for ERC20 token. This should be able to be called in a COVR Token contract after all sales are done. */
 
 interface tokenRecipient { function receiveApproval(address _from, uint256 _value, address _token, bytes _extraData) public; }
 
