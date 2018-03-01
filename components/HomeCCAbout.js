@@ -58,7 +58,7 @@ const HomeCCAbout = ({ mobile }) => {
       <Divider />
       <Container text>
         <Image src='static/compare.png' size='small' centered />
-        <Header as='h1' textAlign='center'>Let's Compare</Header>
+        <Header as='h1' textAlign='center'>Competitive Analysis</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <p style={{ textAlign: 'center', padding: '5px' }}>The advantages of applying smart contract technology to the insurance industry are too numerous to count. </p>
           <p style={{ textAlign: 'center', padding: '5px' }}>With a cutting-edge development team working around the clock, an entrepreneurial powerhouse duo at our helm, and a <strong>diverse team of crypto-specialized advisors</strong>, Crowd Coverage is poised to disrupt insurance across the board.</p>
