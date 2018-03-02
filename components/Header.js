@@ -50,9 +50,11 @@ export default class Header extends Component {
           <Menu.Menu>
           </Menu.Menu>
           <Menu.Menu position="right">
-            <a href='http://t.me/crowdcoverage' target='blank'>
-              <Icon name="telegram" link size='huge' />
-            </a>
+            <Menu.Item>
+              <a href='http://t.me/crowdcoverage' target='blank'>
+                <Icon name="telegram" link size='large' />
+              </a>
+            </Menu.Item>
             <LaunchModal />
           </Menu.Menu>
         </Menu>
