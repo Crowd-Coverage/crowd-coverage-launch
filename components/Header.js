@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Menu, Segment, Visibility, Image } from 'semantic-ui-react';
+import { Menu, Segment, Visibility, Image, Icon } from 'semantic-ui-react';
 import { Link } from '../routes';
 import LaunchModal from './LaunchModal'
 
@@ -50,6 +50,9 @@ export default class Header extends Component {
           <Menu.Menu>
           </Menu.Menu>
           <Menu.Menu position="right">
+            <a href='http://t.me/crowdcoverage' target='blank'>
+              <Icon name="telegram" link size='huge' />
+            </a>
             <LaunchModal />
           </Menu.Menu>
         </Menu>
