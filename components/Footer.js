@@ -28,6 +28,9 @@ export default () => {
               <a href='https://twitter.com/CrowdCoverage' target='blank'>
                 <Icon name="twitter" link size='large' />
               </a>
+              <a href='http://t.me/crowdcoverage' target='blank'>
+                <Icon name="telegram" link size='large' />
+              </a>
             </Grid.Column>
           </Grid.Row>
         </Grid>
