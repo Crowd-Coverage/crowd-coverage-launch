@@ -12,4 +12,5 @@ contract PolicyRequest {
 
   /* I believe that the approvers will have wallets stocked with COVR ---> Need to look at those mechanics
    Approval process should happen here to keep the contract simple, but will consider separating out that contract */
+  
 }
