@@ -8,14 +8,20 @@ contract PolicyStart {
     uint productId;
     string productName;
     uint productValue;
-    uint requestedMaxClaim;
+    uint maxClaimAmount;
     mapping(address => uint) policyUser;
     mapping(address => uint) policyProvider;
     uint[] policies;
   }
 
-  function startPolicy () internal {
+  function startPolicy (
+    uint _user, 
+    uint _productId, 
+    string _productName, 
+    uint _productValue, 
+    uint _maxClaimAmount
+    ) internal {
     // this is where we can bring in the struct
     // check this method!!! Policy newPolicy = policies.push(policyUser[msg.sender]);
-  }
+    
 }
