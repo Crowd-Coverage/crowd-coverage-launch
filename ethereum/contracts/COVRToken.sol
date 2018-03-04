@@ -6,6 +6,9 @@ import "./TokenERC20.sol";
 
 // look at plugging in the ERC20 interface here???
 // look at other examples... tomorrow Saturday. 
+// capped crowdsale will be needed
+// allocate amounts too
+// maybe we just make the token sale in its own repo???
 
 contract COVRToken is TokenERC20 {
 
