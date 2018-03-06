@@ -113,6 +113,8 @@ const HomeCCAbout = ({ mobile }) => {
               <p style={{ textAlign: 'center' }}>Software Engineer at Learners Guild and Accel.AI, Oakland Blockchain Developers Member </p>
             </Grid.Column>
           </Grid.Row>
+        </Grid>
+        <Grid columns={4} divided stackable>
           <Grid.Row>
             <Grid.Column>
               <Image src='/static/dondrey.png' centered />
@@ -125,8 +127,14 @@ const HomeCCAbout = ({ mobile }) => {
               <p style={{ textAlign: 'center' }}>Founder of Experience Legal, VP Startup Genius, Capital Markets Associate Morrison & Foerster LLP </p>
             </Grid.Column>
             <Grid.Column>
-              <Header as='h4' style={{ textAlign: 'center' }}>Lead Developer</Header>
-              <p style={{ textAlign: 'center' }}> TBD </p>
+              <Image src='/static/rahul.png' centered />
+              <Header as='h4' style={{ textAlign: 'center' }}>Rahul Sethuram | Tech Advisor</Header>
+              <p style={{ textAlign: 'center' }}>CTO at ConnextAPI, Co-Founder at Tip’d Off, Senior Test Engineer at Tesla Motors</p>
+            </Grid.Column>
+            <Grid.Column>
+              <Image src='/static/bob.png' centered />
+              <Header as='h4' style={{ textAlign: 'center' }}>Bob Penny | Insurance Advisor</Header>
+              <p style={{ textAlign: 'center' }}>Senior Vice President at Protected Self Insurance Program Managers, SVP at Global Intermediaries, SVP at AIG Specialty Excess, Vice President at C.V. Starr & Co.</p>
             </Grid.Column>
           </Grid.Row>
         </Grid>
