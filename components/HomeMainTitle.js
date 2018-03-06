@@ -41,6 +41,11 @@ const HomeMainTitle = ({ mobile }) => {
           }}
         />
         <LaunchModal />
+        <div style={{ padding: '5px' }}>
+          <a href='http://t.me/crowdcoverage' target='blank'>
+            <Icon name="telegram" link size='huge' />
+          </a>
+        </div>
         <Divider />
       </ScrollAnimation>
     </Container>

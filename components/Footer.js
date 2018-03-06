@@ -13,7 +13,8 @@ export default () => {
                 <Link prefetch route={`/tokeninfo`}><List.Item as='a'>Token Pre-Sale Info</List.Item></Link>
                 <a href="/static/cc_whitepaper.pdf" download="cc_whitepaper.pdf">Whitepaper</a>
                 <Link prefetch route={`/faq`}><List.Item as='a'>FAQ</List.Item></Link>
-
+                <Link prefetch route={`/terms`}><List.Item as='a'>Terms and Conditions</List.Item></Link>
+                <a href="https://www.iubenda.com/privacy-policy/73695414/legal" target="blank">Privacy Policy</a>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
