@@ -119,7 +119,7 @@ const HomeCCAbout = ({ mobile }) => {
             <Grid.Column>
               <Image src='/static/dondrey.png' centered />
               <Header as='h4' style={{ textAlign: 'center' }}>Dondrey Taylor | Business Development Advisor</Header>
-              <p style={{ textAlign: 'center' }}>Co-Founder at Decentralized News Network </p>
+              <p style={{ textAlign: 'center' }}>Co-Founder at Decentralized News Network, Network Security Consultant at Elizabeth Pharmacy, CTO at Minichat Inc</p>
             </Grid.Column>
             <Grid.Column>
               <Image src='/static/ryan.png' centered />
