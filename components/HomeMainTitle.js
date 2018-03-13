@@ -15,9 +15,13 @@ import {
 import ScrollAnimation from 'react-animate-on-scroll'
 import LaunchModal from './LaunchModal'
 
+const mainStyleBg = {
+  backgroundColor: '#00BFFF'
+}
+
 const HomeMainTitle = ({ mobile }) => {
   return (
-    <Container fluid textAlign='center'>
+    <Container fluid textAlign='center' style={mainStyleBg}>
       <ScrollAnimation animateIn='fadeIn' duration='2'>
 
         <Image src='static/crowd_coverage_logo_300_square.png' centered size='large' />
