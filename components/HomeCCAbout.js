@@ -60,7 +60,7 @@ const HomeCCAbout = ({ mobile }) => {
         </ScrollAnimation>
       </Segment>
       <Segment basic style={platformContainerStyle}>
-        <Image src='static/platform_logo.png' size='small' floated='left' />
+        <Image src='static/platform_white.png' size='small' floated='left' />
         <Header as='h1' textAlign='right' inverted>The Platform</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <p style={{ textAlign: 'right', padding: '5px', color: 'white', fontSize: '18px' }}>Crowd Coverage provides a platform that enables <strong>users to submit requests for policies.</strong></p>
@@ -69,7 +69,7 @@ const HomeCCAbout = ({ mobile }) => {
           <p style={{ textAlign: 'right', padding: '5px', color: 'white', fontSize: '18px' }}>Payment mechanics are <strong>rendered transparent and accountable by means of publicly available ledgers</strong>; objectivity is lent to the claims management process through a decentralized system of vote consensus, which dictates the result of claims submitted on the platform. </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/CC_Diagram_Polished_transparent.png' size='huge' centered />
+          <Image src='static/CC_Diagram_Polished_transparent_white.png' size='huge' centered />
         </ScrollAnimation>
       </Segment >
       <Segment basic style={analysisContainerStyle}>

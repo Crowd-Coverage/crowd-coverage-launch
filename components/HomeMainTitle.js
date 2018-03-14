@@ -16,7 +16,8 @@ import ScrollAnimation from 'react-animate-on-scroll'
 import LaunchModal from './LaunchModal'
 
 const mainStyleBg = {
-  backgroundColor: '#00BFFF'
+  backgroundColor: '#00BFFF',
+  background: 'linear-gradient(to right, #1E90FF, #87CEFA)'
 }
 
 const HomeMainTitle = ({ mobile }) => {
@@ -44,9 +45,12 @@ const HomeMainTitle = ({ mobile }) => {
       />
       <LaunchModal />
       <div style={{ padding: '5px' }}>
-        <a href='http://t.me/crowdcoverage' target='blank'>
-          <Icon name="telegram" link size='huge' />
-        </a>
+        <Button style={{ background: 'linear-gradient(to right, #87CEFA, #FFFFE0)', color: 'white' }}>
+          <a href='http://t.me/crowdcoverage' target='blank'>
+            <Icon name="telegram" link size='huge' />
+            Talk to us on Telegram
+          </a>
+        </Button>
       </div>
     </Segment>
   )
