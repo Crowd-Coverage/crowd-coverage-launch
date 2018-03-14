@@ -16,27 +16,31 @@ import LaunchModal from './LaunchModal'
 import IntroVideo from './IntroVideo'
 
 const lightContainerStyle = {
-  backgroundImage: `url("static/mission-bg.png")`,
+  backgroundImage: `url("static/mission-container.png")`,
 }
 
 const platformContainerStyle = {
   backgroundImage: `url("static/platform-bg.png")`
 }
 
+const howContainerStyle = {
+  backgroundImage: `url("static/how-container-two.png")`
+}
+
 const HomeCCAbout = ({ mobile }) => {
   return (
     <div>
-      <Segment basic>
+      <Segment basic style={lightContainerStyle}>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <IntroVideo />
         </ScrollAnimation>
-        <Image src='static/mission.png' size='small' floated='left' />
+        {/* <Image src='static/mission.png' size='small' floated='left' /> */}
         <Header as='h1' textAlign='right'>Mission</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <p style={{ textAlign: 'right', padding: '10px', marginBottom: '10px' }}>Armed with the power of smart contract technology, our goal at Crowd Coverage is to guarantee faster, more trustworthy insurance at lower costs and in larger volume than could ever be dreamed of in the traditional insurance world.</p>
         </ScrollAnimation>
       </Segment>
-      <Segment basic vertical>
+      <Segment basic style={howContainerStyle}>
         <Image src='static/network-icon.png' size='small' floated='right' />
         <Header as='h1' textAlign='center'>How Do We Do This?</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
@@ -56,9 +60,9 @@ const HomeCCAbout = ({ mobile }) => {
           <p style={{ textAlign: 'right', padding: '5px', color: 'white' }}>Payment mechanics are <strong>rendered transparent and accountable by means of publicly available ledgers</strong>; objectivity is lent to the claims management process through a decentralized system of vote consensus, which dictates the result of claims submitted on the platform. </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/CC_Diagram_Polished.png' size='huge' centered />
+          <Image src='static/CC_Diagram_Polished_transparent.png' size='huge' centered />
         </ScrollAnimation>
-      </Segment>
+      </Segment >
       <Divider />
       <Segment basic>
         <Image src='static/compare.png' size='small' floated='right' />
@@ -76,7 +80,7 @@ const HomeCCAbout = ({ mobile }) => {
       <Segment basic>
         <Image src='static/roadmap.png' size='small' centered />
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/cc_roadmap.jpg' size='large' centered />
+          <Image src='static/cc-roadmap-transparent.jpg' size='large' centered />
         </ScrollAnimation>
       </Segment>
       <Divider />
