@@ -107,56 +107,68 @@ const HomeCCAbout = ({ mobile }) => {
       <Divider />
       <Image src='static/team.png' size='small' centered />
       <Header as='h1' textAlign='center'>Our Team</Header>
-      <ScrollAnimation animateIn='fadeIn' duration='2'>
-        <Grid columns={3} divided stackable>
-          <Grid.Row>
-            <Grid.Column >
+      <Grid columns={3} divided stackable>
+        <Grid.Row>
+          <Grid.Column >
+            <ScrollAnimation animateIn='bounceInRight' duration='2' animateOnce='true'>
               <Image src='/static/justin.png' centered />
               <Header as='h4' style={{ textAlign: 'center' }}>Justin Bongi | Co-Founder</Header>
               <p style={{ textAlign: 'center', padding: '10px' }}>Founder of Cinefeed, Editor at Wilder Voice Press, Developer of News Analytics Platform </p>
-            </Grid.Column>
-            <Grid.Column>
+            </ScrollAnimation>
+          </Grid.Column>
+          <Grid.Column>
+            <ScrollAnimation animateIn='bounceInRight' duration='3' animateOnce='true'>
               <Image src='/static/john.png' centered />
               <Header as='h4' style={{ textAlign: 'center' }}>John Pearson | Co-Founder</Header>
               <p style={{ textAlign: 'center' }}>Cofounder at InstinctiveDrives.com, VP Sales at Humantelligence, Inc., VP Product & Technology at Aberdeen Group </p>
-            </Grid.Column>
-            <Grid.Column>
+            </ScrollAnimation>
+          </Grid.Column>
+          <Grid.Column>
+            <ScrollAnimation animateIn='bounceInRight' duration='5' animateOnce='true'>
               <Image src='/static/phil.png' centered />
               <Header as='h4' style={{ textAlign: 'center' }}>Phillip Lorenzo | CTO</Header>
               <p style={{ textAlign: 'center' }}>Software Engineer at Learners Guild and Accel.AI, Oakland Blockchain Developers Member </p>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
-        <Grid columns={4} divided stackable>
-          <Grid.Row>
-            <Grid.Column>
+            </ScrollAnimation>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
+      <Grid columns={4} divided stackable>
+        <Grid.Row>
+          <Grid.Column>
+            <ScrollAnimation animateIn='bounceInLeft' duration='1' animateOnce='true'>
               <Image src='/static/dondrey.png' centered />
               <Header as='h4' style={{ textAlign: 'center' }}>Dondrey Taylor | Business Development Advisor</Header>
               <p style={{ textAlign: 'center' }}>Co-Founder at Decentralized News Network, Network Security Consultant at Elizabeth Pharmacy, CTO at Minichat Inc</p>
-            </Grid.Column>
-            <Grid.Column>
+            </ScrollAnimation>
+          </Grid.Column>
+          <Grid.Column>
+            <ScrollAnimation animateIn='bounceInLeft' duration='3' animateOnce='true'>
               <Image src='/static/ryan.png' centered />
               <Header as='h4' style={{ textAlign: 'center' }}>Ryan David Williams | Legal Advisor</Header>
               <p style={{ textAlign: 'center' }}>Founder of Experience Legal, VP Startup Genius, Capital Markets Associate Morrison & Foerster LLP </p>
-            </Grid.Column>
-            <Grid.Column>
+            </ScrollAnimation>
+          </Grid.Column>
+          <Grid.Column>
+            <ScrollAnimation animateIn='bounceInLeft' duration='5' animateOnce='true'>
               <Image src='/static/rahul.png' centered />
               <Header as='h4' style={{ textAlign: 'center' }}>Rahul Sethuram | Tech Advisor</Header>
               <p style={{ textAlign: 'center' }}>CTO at ConnextAPI, Co-Founder at Tip’d Off, Senior Test Engineer at Tesla Motors</p>
-            </Grid.Column>
-            <Grid.Column>
+            </ScrollAnimation>
+          </Grid.Column>
+          <Grid.Column>
+            <ScrollAnimation animateIn='bounceInLeft' duration='7' animateOnce='true'>
               <Image src='/static/bob.png' centered />
               <Header as='h4' style={{ textAlign: 'center' }}>Bob Penny | Insurance Advisor</Header>
               <p style={{ textAlign: 'center' }}>Senior Vice President at Protected Self Insurance Program Managers, SVP at Global Intermediaries, SVP at AIG Specialty Excess, Vice President at C.V. Starr & Co.</p>
-            </Grid.Column>
-          </Grid.Row>
-        </Grid>
-      </ScrollAnimation>
+            </ScrollAnimation>
+          </Grid.Column>
+        </Grid.Row>
+      </Grid>
       <Divider />
       <Segment basic textAlign='center'>
         <LaunchModal />
       </Segment>
-    </div>
+    </div >
   )
 }
 
