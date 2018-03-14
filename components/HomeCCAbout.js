@@ -95,8 +95,8 @@ const HomeCCAbout = ({ mobile }) => {
         <Header as='h1' textAlign='center'>The COVR Token</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <Image src='static/upd_token_dist.png' size='large' centered />
-          <p style={{ textAlign: 'center', padding: '10px' }}><strong>COVR tokens</strong> act as incentive-based fuels for the Crowd Coverage insurance ecosystem. They will be available for purchase during our pre-sale and public sale, both of which will be conducted in the manner of a dutch auction: </p>
-          <p style={{ textAlign: 'center', padding: '10px' }}>The earlier you purchase, <strong>the greater a discount you will receive (see below).</strong> For example, the first 12 million tokens sold will be discounted at a rate of 50%, the next 28 million at a rate of 35%, and so on. </p>
+          <p style={{ textAlign: 'center', padding: '10px', fontSize: '18px' }}><strong>COVR tokens</strong> act as incentive-based fuels for the Crowd Coverage insurance ecosystem. They will be available for purchase during our pre-sale and public sale, both of which will be conducted in the manner of a dutch auction: </p>
+          <p style={{ textAlign: 'center', padding: '10px', fontSize: '18px' }}>The earlier you purchase, <strong>the greater a discount you will receive (see below).</strong> For example, the first 12 million tokens sold will be discounted at a rate of 50%, the next 28 million at a rate of 35%, and so on. </p>
         </ScrollAnimation>
       </Segment>
       <Segment basic>

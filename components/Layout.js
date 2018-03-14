@@ -14,27 +14,7 @@ export default props => {
         {props.children}
       </Header>
       <Segment.Group >
-        <Responsive {...Responsive.onlyMobile}>
-          <HomeMainTitle mobile />
-          <HomeCCAbout mobile />
-          <Footer />
-        </Responsive>
-      </Segment.Group>
-      <Head>
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
-      </Head>
-      <Segment.Group>
-        <Responsive  {...Responsive.onlyTablet}>
-          <HomeMainTitle mobile />
-          <HomeCCAbout mobile />
-          <Footer />
-        </Responsive>
-      </Segment.Group>
-      <Head>
-        <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
-      </Head>
-      <Segment.Group>
-        <Responsive  {...Responsive.onlyComputer}>
+        <Responsive>
           <HomeMainTitle mobile />
           <HomeCCAbout mobile />
           <Footer />
