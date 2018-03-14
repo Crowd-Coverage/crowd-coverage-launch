@@ -59,7 +59,7 @@ const HomeCCAbout = ({ mobile }) => {
           <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>All claims are settled by a decentralized and representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with<strong>decentralized-consensus objectivity.</strong></p>
         </ScrollAnimation>
       </Segment>
-      <Segment style={platformContainerStyle}>
+      <Segment basic style={platformContainerStyle}>
         <Image src='static/platform_logo.png' size='small' floated='left' />
         <Header as='h1' textAlign='right' inverted>The Platform</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
