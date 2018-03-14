@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import {
-  Container,
+  Segment,
   Header,
   Button,
   Icon,
@@ -21,9 +21,8 @@ const mainStyleBg = {
 
 const HomeMainTitle = ({ mobile }) => {
   return (
-    <Container fluid textAlign='center' style={mainStyleBg}>
+    <Segment textAlign='center' style={mainStyleBg}>
       <ScrollAnimation animateIn='fadeIn' duration='2'>
-
         <Image src='static/crowd_coverage_logo_300_square.png' centered size='large' />
         <Header
           as='h1'
@@ -50,9 +49,8 @@ const HomeMainTitle = ({ mobile }) => {
             <Icon name="telegram" link size='huge' />
           </a>
         </div>
-        <Divider />
       </ScrollAnimation>
-    </Container>
+    </Segment>
   )
 }
 

@@ -24,7 +24,15 @@ const platformContainerStyle = {
 }
 
 const howContainerStyle = {
-  backgroundImage: `url("static/how-container-two.png")`
+  backgroundImage: `url("static/left-sprite-graphic-upd.png")`
+}
+
+const roadMapContainerStyle = {
+  backgroundImage: `url("static/roadmap-bg-1.png")`
+}
+
+const analysisContainerStyle = {
+  backgroundColor: '#E0FFFF'
 }
 
 const HomeCCAbout = ({ mobile }) => {
@@ -34,57 +42,55 @@ const HomeCCAbout = ({ mobile }) => {
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <IntroVideo />
         </ScrollAnimation>
-        {/* <Image src='static/mission.png' size='small' floated='left' /> */}
-        <Header as='h1' textAlign='right'>Mission</Header>
+      </Segment>
+      <Segment basic >
+        <Image src='static/mission.png' size='small' centered />
+        <Header as='h1' textAlign='center'>Mission</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <p style={{ textAlign: 'right', padding: '10px', marginBottom: '10px' }}>Armed with the power of smart contract technology, our goal at Crowd Coverage is to guarantee faster, more trustworthy insurance at lower costs and in larger volume than could ever be dreamed of in the traditional insurance world.</p>
+          <p style={{ textAlign: 'center', padding: '10px', marginBottom: '10px', fontSize: '18px' }}>Armed with the power of smart contract technology, our goal at Crowd Coverage is to guarantee faster, more trustworthy insurance at lower costs and in larger volume than could ever be dreamed of in the traditional insurance world.</p>
         </ScrollAnimation>
       </Segment>
       <Segment basic style={howContainerStyle}>
         <Image src='static/network-icon.png' size='small' floated='right' />
-        <Header as='h1' textAlign='center'>How Do We Do This?</Header>
+        <Header as='h1' textAlign='left'>How Do We Do This?</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <p style={{ textAlign: 'left', padding: '5px' }}>The Crowd Coverage platform allows the process of purchasing insurance to be as <strong>simple and streamlined</strong> as shopping on Amazon.</p>
-          <p style={{ textAlign: 'left', padding: '5px' }}>Insurance providers are <strong>enabled to quickly and efficiently underwrite policies</strong> on a sophisticated marketplace, smart contract technology makes the experience cheaper and more secure for all parties.</p>
-          <p style={{ textAlign: 'left', padding: '5px' }}>All claims are settled by a decentralized and representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with<strong>decentralized-consensus objectivity.</strong></p>
+          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>The Crowd Coverage platform allows the process of purchasing insurance to be as <strong>simple and streamlined</strong> as shopping on Amazon.</p>
+          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>Insurance providers are <strong>enabled to quickly and efficiently underwrite policies</strong> on a sophisticated marketplace, smart contract technology makes the experience cheaper and more secure for all parties.</p>
+          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>All claims are settled by a decentralized and representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with<strong>decentralized-consensus objectivity.</strong></p>
         </ScrollAnimation>
       </Segment>
-      <Divider />
       <Segment style={platformContainerStyle}>
         <Image src='static/platform_logo.png' size='small' floated='left' />
-        <Header as='h1' textAlign='center' inverted>The Platform</Header>
+        <Header as='h1' textAlign='right' inverted>The Platform</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <p style={{ textAlign: 'right', padding: '5px', color: 'white' }}>Crowd Coverage provides a platform that enables <strong>users to submit requests for policies.</strong></p>
-          <p style={{ textAlign: 'right', padding: '5px', color: 'white' }}>Insurance providers can then bid on said requests, either purchasing the entire policy, or sharing risk with other providers. Policy actions are carried out by mutual smart contracts.</p>
-          <p style={{ textAlign: 'right', padding: '5px', color: 'white' }}><strong>Through the use of these autonomous, decentralized contracts, insurance deals occur in lieu of centralized financial and administrative facilitators, thus reducing fees, wait times, and opportunities for deceit.</strong></p>
-          <p style={{ textAlign: 'right', padding: '5px', color: 'white' }}>Payment mechanics are <strong>rendered transparent and accountable by means of publicly available ledgers</strong>; objectivity is lent to the claims management process through a decentralized system of vote consensus, which dictates the result of claims submitted on the platform. </p>
+          <p style={{ textAlign: 'right', padding: '5px', color: 'white', fontSize: '18px' }}>Crowd Coverage provides a platform that enables <strong>users to submit requests for policies.</strong></p>
+          <p style={{ textAlign: 'right', padding: '5px', color: 'white', fontSize: '18px' }}>Insurance providers can then bid on said requests, either purchasing the entire policy, or sharing risk with other providers. Policy actions are carried out by mutual smart contracts.</p>
+          <p style={{ textAlign: 'right', padding: '5px', color: 'white', fontSize: '18px' }}><strong>Through the use of these autonomous, decentralized contracts, insurance deals occur in lieu of centralized financial and administrative facilitators, thus reducing fees, wait times, and opportunities for deceit.</strong></p>
+          <p style={{ textAlign: 'right', padding: '5px', color: 'white', fontSize: '18px' }}>Payment mechanics are <strong>rendered transparent and accountable by means of publicly available ledgers</strong>; objectivity is lent to the claims management process through a decentralized system of vote consensus, which dictates the result of claims submitted on the platform. </p>
         </ScrollAnimation>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <Image src='static/CC_Diagram_Polished_transparent.png' size='huge' centered />
         </ScrollAnimation>
       </Segment >
-      <Divider />
-      <Segment basic>
+      <Segment basic style={analysisContainerStyle}>
         <Image src='static/compare.png' size='small' floated='right' />
         <Header as='h1' textAlign='left'>Competitive Analysis</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <p style={{ textAlign: 'left', padding: '5px' }}>The advantages of applying smart contract technology to the insurance industry are too numerous to count. </p>
-          <p style={{ textAlign: 'left', padding: '5px' }}>With a cutting-edge development team working around the clock, an entrepreneurial powerhouse duo at our helm, and a <strong>diverse team of crypto-specialized advisors</strong>, Crowd Coverage is poised to disrupt insurance across the board.</p>
-          <p style={{ textAlign: 'left', padding: '5px' }}>Traditional companies stand no chance, and our fledgling competitors in the cryptosphere will never be able to scale or prevent fraud like we will—most won’t even get off the ground. Don’t believe us? Our cofounders have detailed a more comprehensive analysis of the competitive landscape in our whitepaper.</p>
+          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>The advantages of applying smart contract technology to the insurance industry are too numerous to count. </p>
+          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>With a cutting-edge development team working around the clock, an entrepreneurial powerhouse duo at our helm, and a <strong>diverse team of crypto-specialized advisors</strong>, Crowd Coverage is poised to disrupt insurance across the board.</p>
+          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>Traditional companies stand no chance, and our fledgling competitors in the cryptosphere will never be able to scale or prevent fraud like we will—most won’t even get off the ground. Don’t believe us? Our cofounders have detailed a more comprehensive analysis of the competitive landscape in our whitepaper.</p>
         </ScrollAnimation>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/comparison.png' size='huge' centered />
+          <Image src='static/comp-analysis-transparent.png' size='huge' centered />
         </ScrollAnimation>
       </Segment>
-      <Divider />
-      <Segment basic>
+      <Segment basic style={roadMapContainerStyle}>
         <Image src='static/roadmap.png' size='small' centered />
         <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <Image src='static/cc-roadmap-transparent.jpg' size='large' centered />
+          <Image src='static/cc-roadmap-transparent.png' size='large' centered />
         </ScrollAnimation>
       </Segment>
-      <Divider />
-      <Segment>
+      <Segment basic>
         <Image src='static/token.png' size='small' centered />
         <Header as='h1' textAlign='center'>The COVR Token</Header>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
@@ -93,8 +99,7 @@ const HomeCCAbout = ({ mobile }) => {
           <p style={{ textAlign: 'center', padding: '10px' }}>The earlier you purchase, <strong>the greater a discount you will receive (see below).</strong> For example, the first 12 million tokens sold will be discounted at a rate of 50%, the next 28 million at a rate of 35%, and so on. </p>
         </ScrollAnimation>
       </Segment>
-      <Divider />
-      <Segment>
+      <Segment basic>
         <ScrollAnimation animateIn='fadeIn' duration='2'>
           <Image src='static/discount.png' size='large' centered />
         </ScrollAnimation>
@@ -148,7 +153,7 @@ const HomeCCAbout = ({ mobile }) => {
         </Grid>
       </ScrollAnimation>
       <Divider />
-      <Segment>
+      <Segment basic textAlign='center'>
         <LaunchModal />
       </Segment>
     </div>
