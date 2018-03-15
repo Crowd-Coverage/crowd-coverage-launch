@@ -23,7 +23,7 @@ const mainStyleBg = {
 const HomeMainTitle = ({ mobile }) => {
   return (
     <Segment basic textAlign='center' style={mainStyleBg}>
-      <Image src='static/crowd_coverage_logo_300_square.png' centered size='medium' />
+      <Image src='static/Crowd-Coverage-Logo-white.png' centered size='medium' />
       <Header
         as='h1'
         inverted
