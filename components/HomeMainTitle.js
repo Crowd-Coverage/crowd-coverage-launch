@@ -30,14 +30,6 @@ const HomeMainTitle = ({ mobile }) => {
         content='Revolutionizing the Insurance Industry'
       />
       <LaunchModal />
-      <div style={{ padding: '5px' }}>
-        <Button style={{ background: 'linear-gradient(to right, #87CEFA, #FFFFE0)', color: 'white' }}>
-          <a href='http://t.me/crowdcoverage' target='blank'>
-            <Icon name="telegram" link size='huge' />
-            Talk to us on Telegram
-          </a>
-        </Button>
-      </div>
     </Segment>
   )
 }
