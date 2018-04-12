@@ -86,7 +86,7 @@ const HomeCCAbout = ({ mobile }) => {
       <Segment basic style={roadMapContainerStyle}>
         <Image src='static/roadmap.png' size='small' centered />
         <ScrollAnimation animateIn='fadeIn' duration={2} animateOnce={true}>
-          <Image src='static/cc-roadmap-transparent.png' size='large' centered />
+          <Image src='static/roadmap-v2-transparent.png' size='large' centered />
         </ScrollAnimation>
       </Segment>
       <Segment basic>
@@ -95,12 +95,11 @@ const HomeCCAbout = ({ mobile }) => {
         <ScrollAnimation animateIn='fadeIn' duration={2} animateOnce={true}>
           <Image src='static/upd_token_dist.png' size='large' centered />
           <p style={{ textAlign: 'center', padding: '10px', fontSize: '18px' }}><strong>COVR tokens</strong> act as incentive-based fuels for the Crowd Coverage insurance ecosystem. They will be available for purchase during our pre-sale and public sale, both of which will be conducted in the manner of a dutch auction: </p>
-          <p style={{ textAlign: 'center', padding: '10px', fontSize: '18px' }}>The earlier you purchase, <strong>the greater a discount you will receive (see below).</strong> For example, the first 12 million tokens sold will be discounted at a rate of 50%, the next 28 million at a rate of 35%, and so on. </p>
         </ScrollAnimation>
       </Segment>
       <Segment basic>
         <ScrollAnimation animateIn='fadeIn' duration={2} animateOnce={true}>
-          <Image src='static/discount.png' size='large' centered />
+          <Image src='static/COVR-Bonus-transparent.png' size='huge' centered />
         </ScrollAnimation>
       </Segment>
       <Divider />

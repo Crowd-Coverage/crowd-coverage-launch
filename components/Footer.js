@@ -14,22 +14,22 @@ export default () => {
                 <a href="/static/cc_whitepaper.pdf" download="cc_whitepaper.pdf">Whitepaper</a>
                 <Link prefetch route={`/faq`}><List.Item as='a'>FAQ</List.Item></Link>
                 <Link prefetch route={`/terms`}><List.Item as='a'>Terms and Conditions</List.Item></Link>
-                <a href="https://www.iubenda.com/privacy-policy/73695414/legal" target="blank">Privacy Policy</a>
+                <a href="https://www.iubenda.com/privacy-policy/73695414/legal" target="blank" rel="noopener">Privacy Policy</a>
               </List>
             </Grid.Column>
             <Grid.Column width={7}>
               <Header as='h4' inverted>Crowd Coverage</Header>
               <p>Join the pre sale and help change the insurance industry</p>
-              <a href='https://www.reddit.com/r/CrowdCoverage/' target='blank'>
+              <a href='https://www.reddit.com/r/CrowdCoverage/' target='blank' rel="noopener">
                 <Icon name="reddit alien" link size='large' />
               </a>
-              <a href='https://www.facebook.com/Crowd-Coverage-586946688316792/' target='blank'>
+              <a href='https://www.facebook.com/Crowd-Coverage-586946688316792/' target='blank' rel="noopener">
                 <Icon name="facebook" link size='large' />
               </a>
-              <a href='https://twitter.com/CrowdCoverage' target='blank'>
+              <a href='https://twitter.com/CrowdCoverage' target='blank' rel="noopener">
                 <Icon name="twitter" link size='large' />
               </a>
-              <a href='http://t.me/crowdcoverage' target='blank'>
+              <a href='http://t.me/crowdcoverage' target='blank' rel="noopener">
                 <Icon name="telegram" link size='large' />
               </a>
             </Grid.Column>
