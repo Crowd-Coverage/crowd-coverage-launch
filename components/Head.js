@@ -25,6 +25,7 @@ export default () => {
         `}} />
       <title>Crowd Coverage</title>
       <meta name="theme-color" />
+      <meta name="Description" content="Insurance on the Blockchain" />
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
       <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css"></link>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
