@@ -42,7 +42,7 @@ const TokenInfo = () => {
             <Table.Header>
               <Table.Row>
                 <Table.HeaderCell>Amount Invested</Table.HeaderCell>
-                <Table.HeaderCell>Bonus Awarded (in COVR Tokens</Table.HeaderCell>
+                <Table.HeaderCell>Bonus Awarded (in COVR Tokens)</Table.HeaderCell>
               </Table.Row>
             </Table.Header>
             <Table.Body>
