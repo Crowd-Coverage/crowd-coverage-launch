@@ -10,7 +10,7 @@ export default () => {
           <Grid.Row>
             <Grid.Column width={6}>
               <List link inverted>
-                <Link prefetch route={`/tokeninfo`}><List.Item as='a'>Token Pre-Sale Info</List.Item></Link>
+                <Link prefetch route={`/tokeninfo`}><List.Item as='a'>Pre-Sale Info</List.Item></Link>
                 <a href="/static/cc_whitepaper.pdf" download="cc_whitepaper.pdf">Whitepaper</a>
                 <Link prefetch route={`/faq`}><List.Item as='a'>FAQ</List.Item></Link>
                 <Link prefetch route={`/terms`}><List.Item as='a'>Terms and Conditions</List.Item></Link>

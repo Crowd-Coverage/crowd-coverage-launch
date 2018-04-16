@@ -8,7 +8,9 @@ import {
   Image,
   Icon,
   Divider,
-  Button
+  Button,
+  Table,
+  Label
 } from 'semantic-ui-react'
 import ScrollAnimation from 'react-animate-on-scroll'
 import LaunchModal from './LaunchModal'
@@ -18,62 +20,71 @@ import LaunchModal from './LaunchModal'
 const TokenInfo = () => {
   return (
     <Segment>
-      <Container textAlign='center'>
-        <Header as='h1'>
-          <Image src='static/token.png' size='mini' centered />
-          Token Sale Info
+      <Header as='h1'>
+        <Image src='static/token.png' size='mini' centered />
+        Token Sale Info
     </Header>
-        <h3>All pre-sale customers must undergo an automatic whitelisting process before purchasing by:</h3>
-        <ScrollAnimation animateIn='fadeIn' duration='2'>
-          <ol style={{ padding: '15px', textAlign: 'left' }}>
-            <ScrollAnimation animateIn='fadeIn' duration='2'>
-              <li> Providing a valid Ethereum wallet address</li>
-            </ScrollAnimation>
-            <Divider />
-            <ScrollAnimation animateIn='fadeIn' duration='2'>
-              <li>stating the amount of COVR tokens they intend to purchase</li>
-            </ScrollAnimation>
-            <Divider />
-            <ScrollAnimation animateIn='fadeIn' duration='2'>
-              <li>reading and returning a signed copy of provided compliance forms and
-contracts</li>
-            </ScrollAnimation>
-            <Divider />
-            <ScrollAnimation animateIn='fadeIn' duration='2'>
-              <li>reading the entirety of this whitepaper and affirming they understand all
-terms, conditions, and stipulations provided herein, and</li>
-            </ScrollAnimation>
-            <Divider />
-            <ScrollAnimation animateIn='fadeIn' duration='2'>
-              <li>providing all KYC compliant personal information.</li>
-            </ScrollAnimation>
-          </ol>
-          <Divider />
-        </ScrollAnimation>
-      </Container>
-      <Container textAlign='center' style={{ padding: '10px' }}>
-        <ScrollAnimation animateIn='fadeIn' duration='2'>
+      <Container textAlign='center' style={{ padding: '10px', fontSize: '18px' }}>
+        <ScrollAnimation animateIn='fadeIn' duration='2' animateOnce={true}>
           <p>
-            All purchasers of the COVR token acknowledge that Crowd Coverage itself is NOT an insurance provider and that COVR tokens serve the utility of access to the Crowd Coverage platform; they are not considered solicitations of insurance, nor offerings of securities.
+            We are excited to announce that we will be partnering with our friends at <strong>StartEngine</strong> to conduct our pre-sale! Starting on April 20th, we will be selling 107,000 shares of common stock in CrowdCoverage, Inc., for a price of $1 per share. $100 will be the minimum available for purchase.
           </p>
           <p>
-            <strong>Twenty percent of COVR tokens will be sold in the pre-sale</strong> at rates listed above by early-adopters whitelisted for the pre-sale. The funding from our pre-sale will be utilized to fund the development of the alpha platform and the early operational expenses associated with technology startups, including but not limited to legal counsel, web design, marketing, etc. All pre-sale customers must affirm their agreement with the Crowd Coverage company regarding their willingness to comply with all relevant laws in their jurisdiction, as well as affirm that they understand all risks acknowledged in the ‘Risks’ section of this document.
+            In accordance with the revolutionary SEC-compliant RATE model developed by StartEngine, each purchase of 100 shares will grant the purchaser a bonus of 8000 COVR tokens for use on our platform!
+          </p>
+          <p>
+            This means that for every $0.0125 invested in Crowd Coverage, one token will be granted to the investor within a reasonable timeline following the sale (estimated 60 days).
+          </p>
+          <p>
+            Upon the completion of the sale, all investors will be contacted with more information about redeeming these bonuses. All early participants in this sale will therefore be given exclusive early access to our alpha platform once it launches!
+          </p>
+          <Table celled textAlign="center">
+            <Table.Header>
+              <Table.Row>
+                <Table.HeaderCell>Amount Invested</Table.HeaderCell>
+                <Table.HeaderCell>Bonus Awarded (in COVR Tokens</Table.HeaderCell>
+              </Table.Row>
+            </Table.Header>
+            <Table.Body>
+              <Table.Row>
+                <Table.Cell>$100</Table.Cell>
+                <Table.Cell>8,000</Table.Cell>
+              </Table.Row>
+              <Table.Row>
+                <Table.Cell>$500</Table.Cell>
+                <Table.Cell>40,000</Table.Cell>
+              </Table.Row>
+              <Table.Row>
+                <Table.Cell>$1,000</Table.Cell>
+                <Table.Cell>80,000</Table.Cell>
+              </Table.Row>
+              <Table.Row>
+                <Table.Cell>$2,500</Table.Cell>
+                <Table.Cell>200,000</Table.Cell>
+              </Table.Row>
+              <Table.Row>
+                <Table.Cell>$5,000</Table.Cell>
+                <Table.Cell>400,000</Table.Cell>
+              </Table.Row>
+              <Table.Row>
+                <Table.Cell>$10,000</Table.Cell>
+                <Table.Cell>800,000</Table.Cell>
+              </Table.Row>
+            </Table.Body>
+          </Table>
+          <p>
+            Investors who purchase common stock now will receive 35% more COVR tokens than if they were to wait until our public sale to purchase. Buy now and get the chance to use our platform right when it’s launched, for a lot cheaper than if you wait!
+          </p>
+          <p>
+            If our funding cap of $107,000 is reached, we plan to extend our pre-sale to a $1.07 million max-cap sale. Bonus rates will remain the same for this extension period. Full terms, conditions, and risks may be read on the StartEngine campaign page.
+          </p>
+          <p>
+            Our public sale will be conducted after the launch of our alpha platform and will have a maximum funding cap of approximately $3 million. COVR tokens for this sale will be distributed at a rate that will begin at about one token bonus per $0.015 invested, maxing out at one token bonus per $0.02 invested.
+          </p>
+          <p>
+            Join our email list or follow us on social media to be notified when further details and dates are released regarding our public sale!
           </p>
         </ScrollAnimation>
-        <ul style={{ padding: '10px', textAlign: 'left' }}>
-          <ScrollAnimation animateIn='fadeIn' duration='2'>
-            <li>Phase 1 — 50% Pre-Sale Discount 3% of 400 million tokens = 12,000,000 tokens 12,000,000 x 0.0000125 = 150 ETH</li>
-            <li>Wherein 1 ETH = 80,000 COVR
-Minimum Purchasing Amount: 4 ETH</li>
-          </ScrollAnimation>
-        </ul>
-        <Container textAlign='center' style={{ padding: '5px' }}>
-          <ScrollAnimation animateIn='fadeIn' duration='2'>
-            <p>
-              Our initial funding goal of 150 ETH will primarily be used for startup costs including but not limited to research and development, web design overhauls, operational costs, and marketing for the proceeding sales. More specifics on fund distribution can be reviewed below.
-          </p>
-          </ScrollAnimation>
-        </Container>
       </Container>
       <Container textAlign='center'>
         <LaunchModal />
