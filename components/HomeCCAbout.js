@@ -55,8 +55,8 @@ const HomeCCAbout = ({ mobile }) => {
         <Header as='h1' textAlign='left'>How Do We Do This?</Header>
         <ScrollAnimation animateIn='fadeIn' duration={2} animateOnce={true}>
           <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>The Crowd Coverage platform allows the process of purchasing insurance to be as <strong>simple and streamlined</strong> as shopping on Amazon.</p>
-          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>Insurance providers are <strong>enabled to quickly and efficiently underwrite policies</strong> on a sophisticated marketplace, smart contract technology makes the experience cheaper and more secure for all parties.</p>
-          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>All claims are settled by a decentralized and representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with <strong>decentralized-consensus objectivity.</strong></p>
+          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>Insurance providers are <strong>enabled to quickly and efficiently underwrite policies</strong> on a sophisticated marketplace, and smart contract technology makes the experience cheaper and more secure for all parties.</p>
+          <p style={{ textAlign: 'left', padding: '5px', fontSize: '18px' }}>All claims are settled by a representative tribunal according to communally agreed-upon protocol, instilling the claims-management process with <strong>decentralized-consensus objectivity.</strong></p>
         </ScrollAnimation>
       </Segment>
       <Segment basic style={platformContainerStyle}>
