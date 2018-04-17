@@ -19,8 +19,8 @@ export default () => {
     <Segment basic style={mainStyleBg} inverted>
       <Head />
       <Image src='static/Crowd-Coverage-Logo-white.png' centered size='medium' />
-      <h1>We are excited to announce that we will be partnering with our friends at <strong>StartEngine</strong> to conduct our pre-sale! Starting on April 20th, we will be selling 107,000 shares of common stock in CrowdCoverage, Inc., for a price of $1 per share. $100 will be the minimum available for purchase.</h1>
-      <h1>For more info and to join the pre sale click on the StartEngine link below!</h1>
+      <h2>We are excited to announce that we will be partnering with our friends at <strong>StartEngine</strong> to conduct our pre-sale! Starting on April 20th, we will be selling 107,000 shares of common stock in CrowdCoverage, Inc., for a price of $1 per share. $100 will be the minimum available for purchase.</h2>
+      <h2>For more info and to join the pre sale click on the StartEngine link below!</h2>
       <Button>StartEngine</Button>
       <Button>
         <Link route={`/home`} as='a'>Go to our site</Link>
