@@ -33,7 +33,7 @@ const TokenInfo = () => {
             In accordance with the revolutionary SEC-compliant RATE model developed by StartEngine, each purchase of 100 shares will grant the purchaser a bonus of 8000 COVR tokens for use on our platform!
           </p>
           <p>
-            This means that for every $0.0125 invested in Crowd Coverage, one token will be granted to the investor within a reasonable timeline following the sale (estimated 60 days).
+            This means that for every $0.0125 invested in CrowdCoverage, one token will be granted to the investor within a reasonable timeline following the sale (estimated 60 days).
           </p>
           <p>
             Upon the completion of the sale, all investors will be contacted with more information about redeeming these bonuses. All early participants in this sale will therefore be given exclusive early access to our alpha platform once it launches!
