@@ -9,8 +9,8 @@ export default class ChatButton extends Component {
     return (
       <Menu secondary compact={true} fixed='bottom' borderless>
         <Menu.Menu position='right'>
-          <Button circular style={{ background: 'linear-gradient(to right, #87CEFA, #FFFFE0)', color: 'white' }}>
-            <a href='http://t.me/crowdcoverage' target='blank' rel="noopener">
+          <Button circular color='linkedin'>
+            <a href='http://t.me/crowdcoverage' target='blank' rel="noopener" style={{ color: 'white' }}>
               <Icon name="telegram" link size='huge' />
               Talk to us on Telegram
             </a>
