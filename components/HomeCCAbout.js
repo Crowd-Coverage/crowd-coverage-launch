@@ -111,22 +111,40 @@ const HomeCCAbout = ({ mobile }) => {
           <Grid.Column >
             <ScrollAnimation animateIn='bounceInRight' duration={3} animateOnce={true}>
               <Image src='/static/justin.png' centered />
-              <Header as='h4' style={{ textAlign: 'center' }}>Justin Bongi | Co-Founder</Header>
+              <Header as='h4' style={{ textAlign: 'center' }}>Justin Bongi | Co-Founder
+                <div>
+                  <a href='https://www.linkedin.com/in/justin-bongi-99921613b/' target='blank' rel="noopener">
+                    <Icon name="linkedin" link size='large' centered />
+                  </a>
+                </div>
+              </Header>
               <p style={{ textAlign: 'center', padding: '10px' }}>Founder of Cinefeed, Editor at Wilder Voice Press, Developer of News Analytics Platform </p>
             </ScrollAnimation>
           </Grid.Column>
           <Grid.Column>
             <ScrollAnimation animateIn='bounceInRight' duration={3} animateOnce={true}>
               <Image src='/static/john.png' centered />
-              <Header as='h4' style={{ textAlign: 'center' }}>John Pearson | Co-Founder</Header>
+              <Header as='h4' style={{ textAlign: 'center' }}>John Pearson | Co-Founder
+                <div>
+                  <a href='https://www.linkedin.com/in/ajohnpearson/' target='blank' rel="noopener">
+                    <Icon name="linkedin" link size='large' centered />
+                  </a>
+                </div>
+              </Header>
               <p style={{ textAlign: 'center' }}>Cofounder at InstinctiveDrives.com, VP Sales at Humantelligence, Inc., VP Product & Technology at Aberdeen Group </p>
             </ScrollAnimation>
           </Grid.Column>
           <Grid.Column>
             <ScrollAnimation animateIn='bounceInRight' duration={3} animateOnce={true}>
               <Image src='/static/phil.png' centered />
-              <Header as='h4' style={{ textAlign: 'center' }}>Phillip Lorenzo | CTO</Header>
-              <p style={{ textAlign: 'center' }}>Software Engineer at Learners Guild and Accel.AI, Oakland Blockchain Developers Member </p>
+              <Header as='h4' style={{ textAlign: 'center' }}>Phillip Lorenzo | Lead Developer
+                <div>
+                  <a href='https://www.linkedin.com/in/philliplorenzo/' target='blank' rel="noopener">
+                    <Icon name="linkedin" link size='large' centered />
+                  </a>
+                </div>
+              </Header>
+              <p style={{ textAlign: 'center' }}>Software Engineer at Accel.AI, Oakland Blockchain Developers Member </p>
             </ScrollAnimation>
           </Grid.Column>
         </Grid.Row>
@@ -136,28 +154,52 @@ const HomeCCAbout = ({ mobile }) => {
           <Grid.Column>
             <ScrollAnimation animateIn='bounceInLeft' duration={3} animateOnce={true}>
               <Image src='/static/dondrey.png' centered />
-              <Header as='h4' style={{ textAlign: 'center' }}>Dondrey Taylor | Business Development Advisor</Header>
+              <Header as='h4' style={{ textAlign: 'center' }}>Dondrey Taylor | Business Development Advisor
+                <div>
+                  <a href='https://www.linkedin.com/in/dondreytaylor/' target='blank' rel="noopener">
+                    <Icon name="linkedin" link size='large' centered />
+                  </a>
+                </div>
+              </Header>
               <p style={{ textAlign: 'center' }}>Co-Founder at Decentralized News Network, Network Security Consultant at Elizabeth Pharmacy, CTO at Minichat Inc</p>
             </ScrollAnimation>
           </Grid.Column>
           <Grid.Column>
             <ScrollAnimation animateIn='bounceInLeft' duration={3} animateOnce={true}>
               <Image src='/static/ryan.png' centered />
-              <Header as='h4' style={{ textAlign: 'center' }}>Ryan David Williams | Legal Advisor</Header>
+              <Header as='h4' style={{ textAlign: 'center' }}>Ryan David Williams | Legal Advisor
+                <div>
+                  <a href='https://www.linkedin.com/in/rdavidwill/' target='blank' rel="noopener">
+                    <Icon name="linkedin" link size='large' centered />
+                  </a>
+                </div>
+              </Header>
               <p style={{ textAlign: 'center' }}>Founder of Experience Legal, VP Startup Genius, Capital Markets Associate Morrison & Foerster LLP </p>
             </ScrollAnimation>
           </Grid.Column>
           <Grid.Column>
             <ScrollAnimation animateIn='bounceInLeft' duration={3} animateOnce={true}>
               <Image src='/static/rahul.png' centered />
-              <Header as='h4' style={{ textAlign: 'center' }}>Rahul Sethuram | Tech Advisor</Header>
+              <Header as='h4' style={{ textAlign: 'center' }}>Rahul Sethuram | Tech Advisor
+                <div>
+                  <a href='https://www.linkedin.com/in/rksethuram/' target='blank' rel="noopener">
+                    <Icon name="linkedin" link size='large' centered />
+                  </a>
+                </div>
+              </Header>
               <p style={{ textAlign: 'center' }}>CTO at ConnextAPI, Co-Founder at Tip’d Off, Senior Test Engineer at Tesla Motors</p>
             </ScrollAnimation>
           </Grid.Column>
           <Grid.Column>
             <ScrollAnimation animateIn='bounceInLeft' duration={3} animateOnce={true}>
               <Image src='/static/bob.png' centered />
-              <Header as='h4' style={{ textAlign: 'center' }}>Bob Penny | Insurance Advisor</Header>
+              <Header as='h4' style={{ textAlign: 'center' }}>Bob Penny | Insurance Advisor
+                <div>
+                  <a href='https://www.linkedin.com/in/bob-penny-9155647/' target='blank' rel="noopener">
+                    <Icon name="linkedin" link size='large' centered />
+                  </a>
+                </div>
+              </Header>
               <p style={{ textAlign: 'center' }}>Senior Vice President at Protected Self Insurance Program Managers, SVP at Global Intermediaries, SVP at AIG Specialty Excess, Vice President at C.V. Starr & Co.</p>
             </ScrollAnimation>
           </Grid.Column>
