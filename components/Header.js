@@ -37,7 +37,7 @@ export default class Header extends Component {
         once={false}
       >
         <Menu fixed={menuFixed && 'top'} style={menuFixed ? fixedMenuStyle : menuStyle} borderless>
-          <Link prefetch route={`/`}><Menu.Item as='a'>Home</Menu.Item></Link>
+          <Link prefetch route={`/home`}><Menu.Item as='a'>Home</Menu.Item></Link>
           <Link prefetch route={`/faq`}><Menu.Item as='a'>FAQ</Menu.Item></Link>
           <Menu.Item>
             <a href="/static/cc_whitepaper.pdf" download="cc_whitepaper.pdf">Whitepaper</a>
