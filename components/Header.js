@@ -40,7 +40,7 @@ export default class Header extends Component {
           <Link prefetch route={`/home`}><Menu.Item as='a'>Home</Menu.Item></Link>
           <Link prefetch route={`/faq`}><Menu.Item as='a'>FAQ</Menu.Item></Link>
           <Menu.Item>
-            <a href="/static/CrowdCoverageWPV3_2.pdf" download="cc_whitepaper.pdf">Whitepaper</a>
+            <a href="/static/cc_whitepaper.pdf" download="cc_whitepaper.pdf">Whitepaper</a>
           </Menu.Item>
           <Menu.Menu>
           </Menu.Menu>

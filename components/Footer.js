@@ -11,7 +11,7 @@ export default () => {
             <Grid.Column width={6}>
               <List link inverted>
                 <Link prefetch route={`/tokeninfo`}><List.Item as='a'>Pre-Sale Info</List.Item></Link>
-                <a href="/static/CrowdCoverageWPV3_2.pdf" download="cc_whitepaper.pdf">Whitepaper</a>
+                <a href="/static/cc_whitepaper.pdf" download="cc_whitepaper.pdf">Whitepaper</a>
                 <Link prefetch route={`/faq`}><List.Item as='a'>FAQ</List.Item></Link>
                 <Link prefetch route={`/terms`}><List.Item as='a'>Terms and Conditions</List.Item></Link>
                 <a href="https://www.iubenda.com/privacy-policy/73695414/legal" target="blank" rel="noopener">Privacy Policy</a>
