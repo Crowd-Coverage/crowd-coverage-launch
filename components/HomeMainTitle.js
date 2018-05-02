@@ -17,7 +17,7 @@ import LaunchModal from './LaunchModal'
 
 const mainStyleBg = {
   backgroundColor: '#00BFFF',
-  background: 'linear-gradient(to right, #1E90FF, #87CEFA)'
+  background: 'linear-gradient(to right, #1E90FF, #87CEFA)',
 }
 
 const HomeMainTitle = ({ mobile }) => {
@@ -28,8 +28,8 @@ const HomeMainTitle = ({ mobile }) => {
         as='h1'
         inverted
         content='Revolutionizing the Insurance Industry'
+        style={{ fontFamily: 'helvetica' }}
       />
-      <LaunchModal />
     </Segment>
   )
 }

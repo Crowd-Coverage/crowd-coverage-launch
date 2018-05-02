@@ -8,7 +8,7 @@ import {
 } from 'semantic-ui-react'
 
 const LaunchModal = () => (
-  <Modal trigger={<Button primary>Sign Up for Updates</Button>} closeIcon >
+  <Modal trigger={<Button primary circular style={{ fontFamily: 'helvetica' }}>Sign Up for Updates</Button>} closeIcon >
     <Header icon='signup' content='Sign Up for Updates' />
     <Modal.Content>
       <Form action='https://formspree.io/jbongi@crowdcoverage.io' method='POST'>

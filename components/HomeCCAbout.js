@@ -17,22 +17,35 @@ import IntroVideo from './IntroVideo'
 
 const lightContainerStyle = {
   backgroundImage: `url("static/mission-container.png")`,
+  fontFamily: 'helvetica'
 }
 
 const platformContainerStyle = {
-  backgroundImage: `url("static/platform-bg.png")`
+  backgroundImage: `url("static/platform-bg.png")`,
+  fontFamily: 'helvetica'
 }
 
 const howContainerStyle = {
-  backgroundImage: `url("static/left-sprite-graphic-upd.png")`
+  backgroundImage: `url("static/left-sprite-graphic-upd.png")`,
+  fontFamily: 'helvetica'
 }
 
 const roadMapContainerStyle = {
-  backgroundImage: `url("static/roadmap-bg-1.png")`
+  backgroundImage: `url("static/roadmap-bg-1.png")`,
+  fontFamily: 'helvetica'
 }
 
 const analysisContainerStyle = {
-  backgroundColor: '#E0FFFF'
+  backgroundColor: '#E0FFFF',
+  fontFamily: 'helvetica'
+}
+
+const tokenContainerStyle = {
+  fontFamily: 'helvetica'
+}
+
+const teamContainerStyle = {
+  fontFamily: 'helvetica'
 }
 
 const HomeCCAbout = ({ mobile }) => {
@@ -90,7 +103,7 @@ const HomeCCAbout = ({ mobile }) => {
           <Image src='static/roadmap-v2-transparent.png' size='large' centered />
         </ScrollAnimation>
       </Segment>
-      <Segment basic>
+      <Segment basic style={tokenContainerStyle}>
         <Image src='static/token.png' size='small' centered />
         <Header as='h1' textAlign='center'>The COVR Token</Header>
         <ScrollAnimation animateIn='fadeIn' duration={2} animateOnce={true}>
@@ -106,7 +119,7 @@ const HomeCCAbout = ({ mobile }) => {
       <Divider />
       <Image src='static/team.png' size='small' centered />
       <Header as='h1' textAlign='center'>Our Team</Header>
-      <Grid columns={3} divided stackable>
+      <Grid columns={3} divided stackable style={teamContainerStyle}>
         <Grid.Row>
           <Grid.Column >
             <ScrollAnimation animateIn='bounceInRight' duration={3} animateOnce={true}>

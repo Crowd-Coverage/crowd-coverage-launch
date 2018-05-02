@@ -4,7 +4,7 @@ import { Link } from '../routes';
 
 export default () => {
   return (
-    <Segment inverted vertical style={{ padding: '5em 2em' }}>
+    <Segment inverted vertical style={{ padding: '5em 2em', fontFamily: 'helvetica' }}>
       <Container>
         <Grid divided inverted stackable>
           <Grid.Row>
@@ -17,7 +17,7 @@ export default () => {
                 <a href="https://www.iubenda.com/privacy-policy/73695414/legal" target="blank" rel="noopener">Privacy Policy</a>
               </List>
             </Grid.Column>
-            <Grid.Column width={7}>
+            <Grid.Column width={7} style={{ fontFamily: 'helvetica' }}>
               <Header as='h4' inverted>Crowd Coverage</Header>
               <p>Join the pre sale and help change the insurance industry</p>
               <a href='https://www.reddit.com/r/CrowdCoverage/' target='blank' rel="noopener">
