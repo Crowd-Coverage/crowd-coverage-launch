@@ -19,8 +19,7 @@ const fixedMenuStyle = {
   border: '1px solid #ddd',
   boxShadow: '0px 3px 5px rgba(0, 0, 0, 0.2)',
   fontFamily: 'helvetica',
-  alignContent: 'center',
-  padding: '5px'
+  alignContent: 'center'
 }
 
 export default class Header extends Component {

@@ -10,10 +10,14 @@ import {
   Modal,
   Checkbox,
   Divider,
-  Form
+  Form,
+  Card,
+  Feed
 } from 'semantic-ui-react'
+import { Link } from '../routes';
 import ScrollAnimation from 'react-animate-on-scroll'
 import LaunchModal from './LaunchModal'
+import Countdown from './Countdown'
 
 const mainStyleBg = {
   backgroundColor: '#00BFFF',
@@ -30,6 +34,14 @@ const HomeMainTitle = ({ mobile }) => {
         content='Revolutionizing the Insurance Industry'
         style={{ fontFamily: 'helvetica' }}
       />
+      <Card centered raised href="https://www.startengine.com/crowd-coverage">
+        <Image src='static/start_engine.svg' centered size='medium' />
+        <Card.Content>
+          <Card.Header>
+            <Countdown />
+          </Card.Header>
+        </Card.Content>
+      </Card>
     </Segment>
   )
 }

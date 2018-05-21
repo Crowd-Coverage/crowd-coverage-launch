@@ -1,8 +1,24 @@
 import React, { Component } from 'react'
-import { Header } from 'semantic-ui-react'
+import Clock from './Clock'
+import {
+  Card,
+  Feed
+} from 'semantic-ui-react'
 
-export default () => {
-  return (
-    <h1>Countdown timer here</h1>
-  )
+class Countdown extends Component {
+
+  state = {
+    deadline: 'July, 20, 2018'
+  }
+
+  render() {
+    return (
+      <div>
+        <Clock deadline={this.state.deadline} />
+      </div>
+
+    );
+  }
 }
+
+export default Countdown
