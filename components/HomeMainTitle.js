@@ -24,6 +24,21 @@ const mainStyleBg = {
   background: 'linear-gradient(to right, #1E90FF, #87CEFA)',
 }
 
+const cardStyle = {
+  color: 'white',
+  fontSize: '20px',
+  backgroundColor: '#00BFFF',
+  background: 'linear-gradient(to right, #1E90FF, #87CEFA)'
+}
+
+const header = [
+  'Pre-sale Now Live!'
+].join('')
+
+const description = [
+  'Click Here'
+].join('')
+
 const HomeMainTitle = ({ mobile }) => {
   return (
     <Segment basic textAlign='center' style={mainStyleBg}>
@@ -34,12 +49,11 @@ const HomeMainTitle = ({ mobile }) => {
         content='Revolutionizing the Insurance Industry'
         style={{ fontFamily: 'helvetica' }}
       />
-      <Card centered raised href="https://www.startengine.com/crowd-coverage">
-        <Image src='static/start_engine.svg' centered size='medium' />
-        <Card.Content>
-          <Card.Header>
-            <Countdown />
-          </Card.Header>
+      <Card centered raised href="https://www.startengine.com/crowd-coverage" color='blue'>
+        <Image src='static/start_engine.svg' centered size='medium' style={{ backgroundColor: '#1E90FF' }} />
+        <Card.Content header={header} description={description} style={cardStyle} />
+        <Card.Content extra style={cardStyle}>
+          <Countdown />
         </Card.Content>
       </Card>
     </Segment>
